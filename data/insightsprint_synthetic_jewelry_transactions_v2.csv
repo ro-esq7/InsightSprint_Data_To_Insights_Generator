@@ -1,0 +1,761 @@
+order_month,order_date,order_id,customer_id,order_channel,sku_id,product_category,product_name,units_sold,order_revenue,customer_status,region
+Month 1,2025-01-01,ORD50012,CUST1084,In-Store,SKU1010,Rings,Engagement Ring Set,2,2026.82,Active,South
+Month 1,2025-01-01,ORD50013,CUST1156,Online,SKU1006,Rings,Silver Stackable Ring,2,198.33,Active,West
+Month 1,2025-01-01,ORD50079,CUST1100,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,200.12,Active,West
+Month 1,2025-01-01,ORD50081,CUST1081,Online,SKU1002,Rings,Diamond Promise Ring,1,337.98,Active,South
+Month 1,2025-01-01,ORD50108,CUST1165,Online,SKU1007,Necklaces,Birthstone Necklace,2,367.71,Active,West
+Month 1,2025-01-01,ORD50144,CUST1097,Online,SKU1005,Watches,Rose Gold Watch,1,274.47,Active,South
+Month 1,2025-01-01,ORD50146,CUST1166,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,820.61,Active,West
+Month 1,2025-01-01,ORD50155,CUST1153,Online,SKU1007,Necklaces,Birthstone Necklace,1,172.73,Active,Northeast
+Month 1,2025-01-02,ORD50027,CUST1050,Online,SKU1003,Earrings,Pearl Stud Earrings,2,322.3,Lapsed,South
+Month 1,2025-01-02,ORD50031,CUST1086,In-Store,SKU1006,Rings,Silver Stackable Ring,1,82.19,Lapsed,South
+Month 1,2025-01-02,ORD50055,CUST1169,In-Store,SKU1008,Earrings,Hoop Earrings,2,217.11,Active,Northeast
+Month 1,2025-01-02,ORD50073,CUST1090,Online,SKU1003,Earrings,Pearl Stud Earrings,2,291.26,Lapsed,South
+Month 1,2025-01-02,ORD50082,CUST1113,Online,SKU1004,Bracelets,Tennis Bracelet,1,413.54,Active,Northeast
+Month 1,2025-01-02,ORD50086,CUST1119,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,380.2,Active,South
+Month 1,2025-01-02,ORD50179,CUST1093,Online,SKU1002,Rings,Diamond Promise Ring,2,696.57,Active,Northeast
+Month 1,2025-01-02,ORD50186,CUST1111,In-Store,SKU1008,Earrings,Hoop Earrings,1,101.33,Active,Northeast
+Month 1,2025-01-02,ORD50190,CUST1179,In-Store,SKU1006,Rings,Silver Stackable Ring,1,89.18,Active,West
+Month 1,2025-01-02,ORD50209,CUST1073,Online,SKU1005,Watches,Rose Gold Watch,1,264.66,Active,Northeast
+Month 1,2025-01-02,ORD50213,CUST1109,Online,SKU1007,Necklaces,Birthstone Necklace,1,158.77,Active,South
+Month 1,2025-01-03,ORD50092,CUST1076,Online,SKU1009,Bracelets,Charm Bracelet,1,150.07,Active,Northeast
+Month 1,2025-01-03,ORD50117,CUST1066,Online,SKU1006,Rings,Silver Stackable Ring,1,100.88,Lapsed,South
+Month 1,2025-01-03,ORD50124,CUST1155,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,398.57,Active,Midwest
+Month 1,2025-01-03,ORD50152,CUST1118,In-Store,SKU1009,Bracelets,Charm Bracelet,1,136.56,Active,Northeast
+Month 1,2025-01-03,ORD50177,CUST1020,In-Store,SKU1008,Earrings,Hoop Earrings,1,116.2,Lapsed,Northeast
+Month 1,2025-01-03,ORD50184,CUST1035,Online,SKU1006,Rings,Silver Stackable Ring,1,97.18,Lapsed,Northeast
+Month 1,2025-01-04,ORD50026,CUST1130,In-Store,SKU1002,Rings,Diamond Promise Ring,1,314.63,Lapsed,West
+Month 1,2025-01-04,ORD50033,CUST1144,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,149.75,Lapsed,West
+Month 1,2025-01-04,ORD50054,CUST1111,Online,SKU1005,Watches,Rose Gold Watch,2,508.34,Active,Northeast
+Month 1,2025-01-04,ORD50056,CUST1034,Online,SKU1005,Watches,Rose Gold Watch,1,253.04,Active,Northeast
+Month 1,2025-01-04,ORD50063,CUST1177,Online,SKU1006,Rings,Silver Stackable Ring,1,95.23,Active,Northeast
+Month 1,2025-01-04,ORD50116,CUST1163,In-Store,SKU1007,Necklaces,Birthstone Necklace,2,311.79,Lapsed,West
+Month 1,2025-01-04,ORD50119,CUST1009,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,195.86,Active,Northeast
+Month 1,2025-01-04,ORD50126,CUST1065,Online,SKU1009,Bracelets,Charm Bracelet,1,141.13,Active,South
+Month 1,2025-01-04,ORD50174,CUST1179,Online,SKU1001,Necklaces,Gold Pendant Necklace,2,346.94,Active,West
+Month 1,2025-01-05,ORD50041,CUST1114,Online,SKU1006,Rings,Silver Stackable Ring,1,102.74,Active,Northeast
+Month 1,2025-01-05,ORD50053,CUST1021,In-Store,SKU1008,Earrings,Hoop Earrings,2,201.05,Lapsed,Northeast
+Month 1,2025-01-05,ORD50096,CUST1095,In-Store,SKU1002,Rings,Diamond Promise Ring,1,280.16,Lapsed,West
+Month 1,2025-01-05,ORD50120,CUST1059,In-Store,SKU1009,Bracelets,Charm Bracelet,1,140.1,Active,West
+Month 1,2025-01-05,ORD50147,CUST1047,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,184.32,Active,West
+Month 1,2025-01-05,ORD50148,CUST1029,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,2,380.91,Active,South
+Month 1,2025-01-05,ORD50160,CUST1005,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,162.71,Active,Northeast
+Month 1,2025-01-05,ORD50188,CUST1040,In-Store,SKU1009,Bracelets,Charm Bracelet,1,139.55,Active,Northeast
+Month 1,2025-01-06,ORD50001,CUST1018,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,383.5,Active,Northeast
+Month 1,2025-01-06,ORD50016,CUST1092,In-Store,SKU1002,Rings,Diamond Promise Ring,1,332.13,Lapsed,West
+Month 1,2025-01-06,ORD50062,CUST1052,Online,SKU1005,Watches,Rose Gold Watch,2,547.72,Active,Midwest
+Month 1,2025-01-06,ORD50090,CUST1007,Online,SKU1005,Watches,Rose Gold Watch,2,543.55,Active,Northeast
+Month 1,2025-01-06,ORD50135,CUST1118,In-Store,SKU1005,Watches,Rose Gold Watch,1,226.41,Active,Northeast
+Month 1,2025-01-06,ORD50205,CUST1031,In-Store,SKU1006,Rings,Silver Stackable Ring,1,96.83,Active,South
+Month 1,2025-01-07,ORD50083,CUST1146,In-Store,SKU1002,Rings,Diamond Promise Ring,2,631.89,Lapsed,South
+Month 1,2025-01-07,ORD50189,CUST1134,Online,SKU1006,Rings,Silver Stackable Ring,3,286.1,Active,Northeast
+Month 1,2025-01-08,ORD50003,CUST1049,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,150.11,Active,Northeast
+Month 1,2025-01-08,ORD50038,CUST1085,In-Store,SKU1008,Earrings,Hoop Earrings,1,123.18,Active,Midwest
+Month 1,2025-01-08,ORD50115,CUST1166,Online,SKU1006,Rings,Silver Stackable Ring,1,99.27,Active,West
+Month 1,2025-01-08,ORD50127,CUST1016,In-Store,SKU1005,Watches,Rose Gold Watch,1,235.96,Lapsed,Northeast
+Month 1,2025-01-08,ORD50134,CUST1061,Online,SKU1008,Earrings,Hoop Earrings,1,118.07,Active,South
+Month 1,2025-01-08,ORD50199,CUST1106,Online,SKU1010,Rings,Engagement Ring Set,2,2077.07,Active,South
+Month 1,2025-01-09,ORD50045,CUST1070,Online,SKU1003,Earrings,Pearl Stud Earrings,1,153.82,Active,Northeast
+Month 1,2025-01-09,ORD50069,CUST1148,In-Store,SKU1010,Rings,Engagement Ring Set,2,1955.4,Active,Northeast
+Month 1,2025-01-09,ORD50112,CUST1101,In-Store,SKU1008,Earrings,Hoop Earrings,1,104.5,Active,South
+Month 1,2025-01-09,ORD50128,CUST1009,Online,SKU1004,Bracelets,Tennis Bracelet,2,806.58,Active,Northeast
+Month 1,2025-01-09,ORD50131,CUST1050,Online,SKU1007,Necklaces,Birthstone Necklace,1,166.59,Lapsed,South
+Month 1,2025-01-09,ORD50167,CUST1176,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,146.44,Active,South
+Month 1,2025-01-09,ORD50197,CUST1012,In-Store,SKU1002,Rings,Diamond Promise Ring,2,576.53,Lapsed,South
+Month 1,2025-01-10,ORD50060,CUST1159,Online,SKU1007,Necklaces,Birthstone Necklace,3,494.81,Active,Northeast
+Month 1,2025-01-10,ORD50095,CUST1107,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,849.52,Lapsed,Northeast
+Month 1,2025-01-10,ORD50100,CUST1093,Online,SKU1008,Earrings,Hoop Earrings,1,132.79,Active,Northeast
+Month 1,2025-01-10,ORD50105,CUST1098,In-Store,SKU1009,Bracelets,Charm Bracelet,1,144.38,Active,Northeast
+Month 1,2025-01-10,ORD50150,CUST1100,Online,SKU1004,Bracelets,Tennis Bracelet,1,398.99,Active,West
+Month 1,2025-01-10,ORD50163,CUST1029,In-Store,SKU1006,Rings,Silver Stackable Ring,2,189.71,Active,South
+Month 1,2025-01-10,ORD50165,CUST1076,Online,SKU1004,Bracelets,Tennis Bracelet,1,401.43,Active,Northeast
+Month 1,2025-01-10,ORD50194,CUST1104,Online,SKU1004,Bracelets,Tennis Bracelet,2,839.88,Active,Northeast
+Month 1,2025-01-10,ORD50212,CUST1138,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,174.31,Active,Northeast
+Month 1,2025-01-11,ORD50002,CUST1104,In-Store,SKU1002,Rings,Diamond Promise Ring,1,304.85,Active,Northeast
+Month 1,2025-01-11,ORD50007,CUST1131,Online,SKU1003,Earrings,Pearl Stud Earrings,1,150.77,Active,West
+Month 1,2025-01-11,ORD50021,CUST1083,In-Store,SKU1006,Rings,Silver Stackable Ring,3,243.63,Active,Midwest
+Month 1,2025-01-11,ORD50023,CUST1102,Online,SKU1010,Rings,Engagement Ring Set,2,1964.65,Active,South
+Month 1,2025-01-11,ORD50028,CUST1152,In-Store,SKU1005,Watches,Rose Gold Watch,1,255.32,Lapsed,South
+Month 1,2025-01-11,ORD50077,CUST1077,In-Store,SKU1002,Rings,Diamond Promise Ring,2,632.87,Active,Midwest
+Month 1,2025-01-11,ORD50091,CUST1050,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,178.53,Lapsed,South
+Month 1,2025-01-11,ORD50099,CUST1077,In-Store,SKU1008,Earrings,Hoop Earrings,1,110.9,Active,Midwest
+Month 1,2025-01-11,ORD50107,CUST1095,Online,SKU1005,Watches,Rose Gold Watch,1,248.69,Lapsed,West
+Month 1,2025-01-11,ORD50118,CUST1076,Online,SKU1002,Rings,Diamond Promise Ring,1,359.86,Active,Northeast
+Month 1,2025-01-11,ORD50172,CUST1048,Online,SKU1008,Earrings,Hoop Earrings,1,131.06,Active,Midwest
+Month 1,2025-01-12,ORD50004,CUST1125,Online,SKU1006,Rings,Silver Stackable Ring,1,101.52,Lapsed,West
+Month 1,2025-01-13,ORD50051,CUST1141,In-Store,SKU1006,Rings,Silver Stackable Ring,1,103.0,Lapsed,West
+Month 1,2025-01-13,ORD50065,CUST1144,In-Store,SKU1008,Earrings,Hoop Earrings,1,128.21,Lapsed,West
+Month 1,2025-01-13,ORD50066,CUST1040,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,180.45,Active,Northeast
+Month 1,2025-01-13,ORD50068,CUST1016,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,186.23,Lapsed,Northeast
+Month 1,2025-01-13,ORD50109,CUST1094,Online,SKU1005,Watches,Rose Gold Watch,1,298.82,Active,Midwest
+Month 1,2025-01-13,ORD50133,CUST1072,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,239.25,Active,Northeast
+Month 1,2025-01-13,ORD50169,CUST1153,Online,SKU1004,Bracelets,Tennis Bracelet,1,426.71,Active,Northeast
+Month 1,2025-01-13,ORD50206,CUST1058,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,173.97,Active,West
+Month 1,2025-01-14,ORD50010,CUST1034,Online,SKU1006,Rings,Silver Stackable Ring,1,96.61,Active,Northeast
+Month 1,2025-01-14,ORD50159,CUST1125,Online,SKU1006,Rings,Silver Stackable Ring,1,98.22,Lapsed,West
+Month 1,2025-01-14,ORD50161,CUST1131,Online,SKU1004,Bracelets,Tennis Bracelet,1,406.66,Active,West
+Month 1,2025-01-14,ORD50162,CUST1097,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,275.08,Active,South
+Month 1,2025-01-14,ORD50180,CUST1029,Online,SKU1007,Necklaces,Birthstone Necklace,1,167.89,Active,South
+Month 1,2025-01-14,ORD50207,CUST1025,In-Store,SKU1002,Rings,Diamond Promise Ring,3,889.18,Lapsed,Northeast
+Month 1,2025-01-15,ORD50061,CUST1118,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,153.47,Active,Northeast
+Month 1,2025-01-15,ORD50138,CUST1073,Online,SKU1002,Rings,Diamond Promise Ring,1,323.68,Active,Northeast
+Month 1,2025-01-15,ORD50145,CUST1109,In-Store,SKU1006,Rings,Silver Stackable Ring,1,101.59,Active,South
+Month 1,2025-01-15,ORD50153,CUST1103,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,135.22,Active,West
+Month 1,2025-01-15,ORD50166,CUST1024,Online,SKU1002,Rings,Diamond Promise Ring,1,378.11,Active,Midwest
+Month 1,2025-01-15,ORD50202,CUST1082,Online,SKU1009,Bracelets,Charm Bracelet,2,311.35,Active,West
+Month 1,2025-01-16,ORD50009,CUST1134,Online,SKU1008,Earrings,Hoop Earrings,1,133.75,Active,Northeast
+Month 1,2025-01-16,ORD50015,CUST1036,Online,SKU1003,Earrings,Pearl Stud Earrings,1,133.88,Active,Northeast
+Month 1,2025-01-16,ORD50044,CUST1059,In-Store,SKU1008,Earrings,Hoop Earrings,1,119.02,Active,West
+Month 1,2025-01-16,ORD50076,CUST1024,Online,SKU1010,Rings,Engagement Ring Set,1,985.34,Active,Midwest
+Month 1,2025-01-17,ORD50011,CUST1133,Online,SKU1005,Watches,Rose Gold Watch,2,528.33,Active,South
+Month 1,2025-01-17,ORD50034,CUST1098,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,155.77,Active,Northeast
+Month 1,2025-01-17,ORD50052,CUST1176,In-Store,SKU1002,Rings,Diamond Promise Ring,1,301.75,Active,South
+Month 1,2025-01-17,ORD50102,CUST1076,In-Store,SKU1009,Bracelets,Charm Bracelet,1,143.59,Active,Northeast
+Month 1,2025-01-17,ORD50129,CUST1012,Online,SKU1005,Watches,Rose Gold Watch,2,556.36,Lapsed,South
+Month 1,2025-01-17,ORD50136,CUST1157,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,132.11,Active,Northeast
+Month 1,2025-01-17,ORD50143,CUST1058,In-Store,SKU1010,Rings,Engagement Ring Set,1,911.65,Active,West
+Month 1,2025-01-17,ORD50164,CUST1022,In-Store,SKU1006,Rings,Silver Stackable Ring,3,284.13,Lapsed,West
+Month 1,2025-01-17,ORD50176,CUST1134,In-Store,SKU1002,Rings,Diamond Promise Ring,1,294.14,Active,Northeast
+Month 1,2025-01-18,ORD50046,CUST1168,Online,SKU1008,Earrings,Hoop Earrings,2,244.62,Active,South
+Month 1,2025-01-18,ORD50094,CUST1036,Online,SKU1002,Rings,Diamond Promise Ring,1,328.91,Active,Northeast
+Month 1,2025-01-18,ORD50175,CUST1130,Online,SKU1004,Bracelets,Tennis Bracelet,2,919.05,Lapsed,West
+Month 1,2025-01-18,ORD50187,CUST1038,Online,SKU1007,Necklaces,Birthstone Necklace,2,329.63,Active,Midwest
+Month 1,2025-01-18,ORD50200,CUST1028,Online,SKU1007,Necklaces,Birthstone Necklace,1,165.32,Active,South
+Month 1,2025-01-18,ORD50201,CUST1176,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,183.79,Active,South
+Month 1,2025-01-19,ORD50029,CUST1139,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,363.4,Lapsed,Midwest
+Month 1,2025-01-19,ORD50030,CUST1140,In-Store,SKU1010,Rings,Engagement Ring Set,1,852.87,Active,South
+Month 1,2025-01-19,ORD50058,CUST1046,In-Store,SKU1007,Necklaces,Birthstone Necklace,2,308.26,Active,Northeast
+Month 1,2025-01-19,ORD50154,CUST1130,Online,SKU1004,Bracelets,Tennis Bracelet,2,872.68,Lapsed,West
+Month 1,2025-01-20,ORD50071,CUST1097,Online,SKU1006,Rings,Silver Stackable Ring,3,295.7,Active,South
+Month 1,2025-01-20,ORD50132,CUST1155,In-Store,SKU1008,Earrings,Hoop Earrings,1,129.67,Active,Midwest
+Month 1,2025-01-20,ORD50140,CUST1045,In-Store,SKU1006,Rings,Silver Stackable Ring,1,86.39,Active,South
+Month 1,2025-01-20,ORD50158,CUST1061,Online,SKU1002,Rings,Diamond Promise Ring,1,325.86,Active,South
+Month 1,2025-01-20,ORD50178,CUST1037,Online,SKU1005,Watches,Rose Gold Watch,1,279.45,Active,West
+Month 1,2025-01-20,ORD50193,CUST1131,Online,SKU1004,Bracelets,Tennis Bracelet,2,829.93,Active,West
+Month 1,2025-01-20,ORD50208,CUST1084,Online,SKU1004,Bracelets,Tennis Bracelet,2,890.02,Active,South
+Month 1,2025-01-21,ORD50057,CUST1088,Online,SKU1002,Rings,Diamond Promise Ring,1,339.8,Active,South
+Month 1,2025-01-21,ORD50093,CUST1125,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,2,341.23,Lapsed,West
+Month 1,2025-01-21,ORD50110,CUST1071,Online,SKU1003,Earrings,Pearl Stud Earrings,2,294.14,Active,West
+Month 1,2025-01-21,ORD50156,CUST1035,In-Store,SKU1006,Rings,Silver Stackable Ring,1,92.15,Lapsed,Northeast
+Month 1,2025-01-21,ORD50185,CUST1057,In-Store,SKU1006,Rings,Silver Stackable Ring,1,99.39,Lapsed,West
+Month 1,2025-01-22,ORD50048,CUST1038,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,376.69,Active,Midwest
+Month 1,2025-01-22,ORD50087,CUST1161,In-Store,SKU1002,Rings,Diamond Promise Ring,2,585.27,Active,Northeast
+Month 1,2025-01-22,ORD50106,CUST1096,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,182.47,Active,Northeast
+Month 1,2025-01-22,ORD50130,CUST1064,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,165.12,Active,Northeast
+Month 1,2025-01-22,ORD50141,CUST1179,Online,SKU1005,Watches,Rose Gold Watch,1,259.81,Active,West
+Month 1,2025-01-22,ORD50210,CUST1012,In-Store,SKU1006,Rings,Silver Stackable Ring,2,179.38,Lapsed,South
+Month 1,2025-01-22,ORD50216,CUST1135,In-Store,SKU1005,Watches,Rose Gold Watch,1,263.58,Active,West
+Month 1,2025-01-23,ORD50014,CUST1171,Online,SKU1009,Bracelets,Charm Bracelet,1,150.55,Active,Northeast
+Month 1,2025-01-23,ORD50022,CUST1002,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,213.05,Active,West
+Month 1,2025-01-23,ORD50025,CUST1091,In-Store,SKU1002,Rings,Diamond Promise Ring,2,614.31,Active,Midwest
+Month 1,2025-01-23,ORD50036,CUST1000,In-Store,SKU1007,Necklaces,Birthstone Necklace,2,293.94,Lapsed,Midwest
+Month 1,2025-01-23,ORD50049,CUST1102,In-Store,SKU1008,Earrings,Hoop Earrings,1,125.89,Active,South
+Month 1,2025-01-23,ORD50064,CUST1049,Online,SKU1007,Necklaces,Birthstone Necklace,1,171.43,Active,Northeast
+Month 1,2025-01-23,ORD50111,CUST1087,Online,SKU1006,Rings,Silver Stackable Ring,1,102.87,Active,Northeast
+Month 1,2025-01-23,ORD50137,CUST1139,Online,SKU1010,Rings,Engagement Ring Set,1,931.81,Lapsed,Midwest
+Month 1,2025-01-23,ORD50173,CUST1008,Online,SKU1002,Rings,Diamond Promise Ring,1,356.62,Lapsed,Midwest
+Month 1,2025-01-23,ORD50198,CUST1001,Online,SKU1005,Watches,Rose Gold Watch,1,252.62,Active,West
+Month 1,2025-01-23,ORD50203,CUST1081,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,156.36,Active,South
+Month 1,2025-01-24,ORD50024,CUST1017,Online,SKU1003,Earrings,Pearl Stud Earrings,1,151.06,Active,Midwest
+Month 1,2025-01-24,ORD50042,CUST1159,Online,SKU1008,Earrings,Hoop Earrings,1,124.97,Active,Northeast
+Month 1,2025-01-24,ORD50070,CUST1152,Online,SKU1006,Rings,Silver Stackable Ring,2,214.5,Lapsed,South
+Month 1,2025-01-24,ORD50080,CUST1120,Online,SKU1008,Earrings,Hoop Earrings,1,122.31,Lapsed,West
+Month 1,2025-01-24,ORD50125,CUST1136,Online,SKU1008,Earrings,Hoop Earrings,2,261.14,Active,Midwest
+Month 1,2025-01-24,ORD50142,CUST1064,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,178.95,Active,Northeast
+Month 1,2025-01-24,ORD50149,CUST1136,Online,SKU1006,Rings,Silver Stackable Ring,2,181.46,Active,Midwest
+Month 1,2025-01-24,ORD50181,CUST1075,Online,SKU1008,Earrings,Hoop Earrings,1,124.47,Active,Midwest
+Month 1,2025-01-24,ORD50182,CUST1001,In-Store,SKU1002,Rings,Diamond Promise Ring,1,293.15,Active,West
+Month 1,2025-01-24,ORD50183,CUST1018,In-Store,SKU1002,Rings,Diamond Promise Ring,2,642.69,Active,Northeast
+Month 1,2025-01-24,ORD50214,CUST1105,Online,SKU1007,Necklaces,Birthstone Necklace,1,186.16,Active,Northeast
+Month 1,2025-01-25,ORD50067,CUST1031,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,167.04,Active,South
+Month 1,2025-01-25,ORD50072,CUST1178,Online,SKU1006,Rings,Silver Stackable Ring,1,101.44,Lapsed,Midwest
+Month 1,2025-01-25,ORD50075,CUST1092,Online,SKU1003,Earrings,Pearl Stud Earrings,2,297.56,Lapsed,West
+Month 1,2025-01-25,ORD50078,CUST1084,Online,SKU1003,Earrings,Pearl Stud Earrings,1,144.18,Active,South
+Month 1,2025-01-25,ORD50103,CUST1077,Online,SKU1002,Rings,Diamond Promise Ring,1,340.74,Active,Midwest
+Month 1,2025-01-25,ORD50139,CUST1110,Online,SKU1008,Earrings,Hoop Earrings,1,120.68,Lapsed,South
+Month 1,2025-01-25,ORD50151,CUST1030,Online,SKU1006,Rings,Silver Stackable Ring,1,98.95,Active,Northeast
+Month 1,2025-01-25,ORD50171,CUST1088,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,2,366.85,Active,South
+Month 1,2025-01-25,ORD50217,CUST1130,In-Store,SKU1002,Rings,Diamond Promise Ring,1,320.4,Lapsed,West
+Month 1,2025-01-26,ORD50017,CUST1089,Online,SKU1003,Earrings,Pearl Stud Earrings,3,455.79,Lapsed,South
+Month 1,2025-01-26,ORD50020,CUST1098,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,173.19,Active,Northeast
+Month 1,2025-01-26,ORD50032,CUST1060,Online,SKU1003,Earrings,Pearl Stud Earrings,1,139.94,Active,South
+Month 1,2025-01-26,ORD50035,CUST1169,In-Store,SKU1006,Rings,Silver Stackable Ring,1,91.96,Active,Northeast
+Month 1,2025-01-26,ORD50047,CUST1120,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,132.07,Lapsed,West
+Month 1,2025-01-26,ORD50074,CUST1011,Online,SKU1005,Watches,Rose Gold Watch,3,803.14,Lapsed,Northeast
+Month 1,2025-01-26,ORD50101,CUST1083,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,143.27,Active,Midwest
+Month 1,2025-01-26,ORD50114,CUST1146,In-Store,SKU1008,Earrings,Hoop Earrings,2,225.84,Lapsed,South
+Month 1,2025-01-26,ORD50123,CUST1123,In-Store,SKU1009,Bracelets,Charm Bracelet,2,277.69,Active,South
+Month 1,2025-01-26,ORD50192,CUST1139,Online,SKU1005,Watches,Rose Gold Watch,1,276.76,Lapsed,Midwest
+Month 1,2025-01-27,ORD50005,CUST1002,Online,SKU1007,Necklaces,Birthstone Necklace,1,174.47,Active,West
+Month 1,2025-01-27,ORD50008,CUST1101,Online,SKU1003,Earrings,Pearl Stud Earrings,1,138.04,Active,South
+Month 1,2025-01-27,ORD50043,CUST1111,Online,SKU1008,Earrings,Hoop Earrings,1,123.05,Active,Northeast
+Month 1,2025-01-27,ORD50097,CUST1133,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,186.68,Active,South
+Month 1,2025-01-27,ORD50098,CUST1058,Online,SKU1002,Rings,Diamond Promise Ring,1,300.57,Active,West
+Month 1,2025-01-27,ORD50121,CUST1112,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,142.58,Lapsed,West
+Month 1,2025-01-27,ORD50122,CUST1129,Online,SKU1008,Earrings,Hoop Earrings,1,124.26,Lapsed,Midwest
+Month 1,2025-01-27,ORD50157,CUST1099,In-Store,SKU1002,Rings,Diamond Promise Ring,1,292.81,Lapsed,Northeast
+Month 1,2025-01-27,ORD50168,CUST1137,Online,SKU1007,Necklaces,Birthstone Necklace,1,156.2,Active,Northeast
+Month 1,2025-01-27,ORD50170,CUST1126,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,902.64,Active,Midwest
+Month 1,2025-01-27,ORD50204,CUST1136,In-Store,SKU1006,Rings,Silver Stackable Ring,1,100.16,Active,Midwest
+Month 1,2025-01-28,ORD50018,CUST1062,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,148.38,Active,West
+Month 1,2025-01-28,ORD50037,CUST1055,In-Store,SKU1006,Rings,Silver Stackable Ring,1,86.89,Active,South
+Month 1,2025-01-28,ORD50059,CUST1030,Online,SKU1003,Earrings,Pearl Stud Earrings,2,285.57,Active,Northeast
+Month 1,2025-01-28,ORD50089,CUST1034,Online,SKU1003,Earrings,Pearl Stud Earrings,1,134.91,Active,Northeast
+Month 1,2025-01-28,ORD50220,CUST1054,Online,SKU1001,Necklaces,Gold Pendant Necklace,2,348.99,Active,Midwest
+Month 1,2025-01-29,ORD50006,CUST1103,Online,SKU1006,Rings,Silver Stackable Ring,1,101.64,Active,West
+Month 1,2025-01-29,ORD50039,CUST1059,Online,SKU1002,Rings,Diamond Promise Ring,1,327.39,Active,West
+Month 1,2025-01-29,ORD50050,CUST1151,Online,SKU1005,Watches,Rose Gold Watch,1,292.42,Active,West
+Month 1,2025-01-29,ORD50084,CUST1096,Online,SKU1008,Earrings,Hoop Earrings,1,123.23,Active,Northeast
+Month 1,2025-01-29,ORD50218,CUST1097,In-Store,SKU1006,Rings,Silver Stackable Ring,1,97.29,Active,South
+Month 1,2025-01-30,ORD50085,CUST1139,In-Store,SKU1009,Bracelets,Charm Bracelet,2,295.1,Lapsed,Midwest
+Month 1,2025-01-30,ORD50088,CUST1158,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,795.57,Active,Midwest
+Month 1,2025-01-30,ORD50104,CUST1073,In-Store,SKU1006,Rings,Silver Stackable Ring,1,89.22,Active,Northeast
+Month 1,2025-01-30,ORD50196,CUST1098,In-Store,SKU1008,Earrings,Hoop Earrings,2,219.58,Active,Northeast
+Month 1,2025-01-30,ORD50219,CUST1161,Online,SKU1005,Watches,Rose Gold Watch,1,260.16,Active,Northeast
+Month 1,2025-01-31,ORD50019,CUST1125,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,2,337.28,Lapsed,West
+Month 1,2025-01-31,ORD50040,CUST1138,In-Store,SKU1007,Necklaces,Birthstone Necklace,2,275.65,Active,Northeast
+Month 1,2025-01-31,ORD50113,CUST1102,Online,SKU1005,Watches,Rose Gold Watch,1,267.03,Active,South
+Month 1,2025-01-31,ORD50191,CUST1096,Online,SKU1008,Earrings,Hoop Earrings,3,365.18,Active,Northeast
+Month 1,2025-01-31,ORD50195,CUST1073,In-Store,SKU1005,Watches,Rose Gold Watch,2,478.06,Active,Northeast
+Month 1,2025-01-31,ORD50211,CUST1003,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,191.92,Active,Northeast
+Month 1,2025-01-31,ORD50215,CUST1148,Online,SKU1007,Necklaces,Birthstone Necklace,2,349.5,Active,Northeast
+Month 2,2025-02-01,ORD50270,CUST1178,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,203.52,Lapsed,Midwest
+Month 2,2025-02-01,ORD50316,CUST1124,Online,SKU1005,Watches,Rose Gold Watch,2,563.01,Active,South
+Month 2,2025-02-01,ORD50336,CUST1163,Online,SKU1002,Rings,Diamond Promise Ring,1,309.9,Lapsed,West
+Month 2,2025-02-01,ORD50385,CUST1064,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,3,581.01,Active,Northeast
+Month 2,2025-02-01,ORD50390,CUST1051,In-Store,SKU1007,Necklaces,Birthstone Necklace,2,329.2,Active,Northeast
+Month 2,2025-02-01,ORD50463,CUST1130,Online,SKU1008,Earrings,Hoop Earrings,1,130.56,Lapsed,West
+Month 2,2025-02-02,ORD50234,CUST1042,Online,SKU1008,Earrings,Hoop Earrings,3,376.14,Lapsed,Midwest
+Month 2,2025-02-02,ORD50252,CUST1001,In-Store,SKU1009,Bracelets,Charm Bracelet,1,146.28,Active,West
+Month 2,2025-02-02,ORD50256,CUST1014,Online,SKU1004,Bracelets,Tennis Bracelet,2,940.79,Lapsed,Northeast
+Month 2,2025-02-02,ORD50260,CUST1098,Online,SKU1006,Rings,Silver Stackable Ring,2,193.62,Active,Northeast
+Month 2,2025-02-02,ORD50264,CUST1005,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,176.38,Active,Northeast
+Month 2,2025-02-02,ORD50281,CUST1143,Online,SKU1004,Bracelets,Tennis Bracelet,1,409.36,Active,West
+Month 2,2025-02-02,ORD50287,CUST1113,Online,SKU1004,Bracelets,Tennis Bracelet,1,500.71,Active,Northeast
+Month 2,2025-02-02,ORD50294,CUST1110,Online,SKU1003,Earrings,Pearl Stud Earrings,1,150.91,Lapsed,South
+Month 2,2025-02-02,ORD50354,CUST1011,Online,SKU1007,Necklaces,Birthstone Necklace,1,171.27,Lapsed,Northeast
+Month 2,2025-02-02,ORD50357,CUST1113,Online,SKU1010,Rings,Engagement Ring Set,2,2269.59,Active,Northeast
+Month 2,2025-02-02,ORD50369,CUST1033,In-Store,SKU1005,Watches,Rose Gold Watch,1,246.47,Lapsed,Northeast
+Month 2,2025-02-02,ORD50372,CUST1045,Online,SKU1007,Necklaces,Birthstone Necklace,1,174.1,Active,South
+Month 2,2025-02-02,ORD50424,CUST1020,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,171.29,Lapsed,Northeast
+Month 2,2025-02-02,ORD50430,CUST1036,Online,SKU1002,Rings,Diamond Promise Ring,1,334.8,Active,Northeast
+Month 2,2025-02-02,ORD50446,CUST1005,In-Store,SKU1002,Rings,Diamond Promise Ring,1,341.71,Active,Northeast
+Month 2,2025-02-02,ORD50448,CUST1148,In-Store,SKU1006,Rings,Silver Stackable Ring,1,94.89,Active,Northeast
+Month 2,2025-02-02,ORD50455,CUST1172,Online,SKU1003,Earrings,Pearl Stud Earrings,2,344.18,Lapsed,South
+Month 2,2025-02-02,ORD50457,CUST1164,In-Store,SKU1008,Earrings,Hoop Earrings,1,122.35,Active,West
+Month 2,2025-02-03,ORD50285,CUST1154,In-Store,SKU1006,Rings,Silver Stackable Ring,1,93.72,Lapsed,Northeast
+Month 2,2025-02-03,ORD50303,CUST1086,In-Store,SKU1002,Rings,Diamond Promise Ring,1,342.9,Lapsed,South
+Month 2,2025-02-04,ORD50249,CUST1002,Online,SKU1006,Rings,Silver Stackable Ring,1,98.49,Active,West
+Month 2,2025-02-04,ORD50275,CUST1093,In-Store,SKU1002,Rings,Diamond Promise Ring,1,332.6,Active,Northeast
+Month 2,2025-02-04,ORD50304,CUST1057,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,171.53,Lapsed,West
+Month 2,2025-02-04,ORD50338,CUST1042,Online,SKU1001,Necklaces,Gold Pendant Necklace,2,414.72,Lapsed,Midwest
+Month 2,2025-02-04,ORD50340,CUST1173,Online,SKU1002,Rings,Diamond Promise Ring,1,328.37,Active,Northeast
+Month 2,2025-02-04,ORD50346,CUST1038,Online,SKU1007,Necklaces,Birthstone Necklace,1,146.54,Active,Midwest
+Month 2,2025-02-04,ORD50393,CUST1134,In-Store,SKU1006,Rings,Silver Stackable Ring,1,102.99,Active,Northeast
+Month 2,2025-02-04,ORD50421,CUST1010,In-Store,SKU1008,Earrings,Hoop Earrings,1,128.44,Lapsed,South
+Month 2,2025-02-04,ORD50438,CUST1106,Online,SKU1003,Earrings,Pearl Stud Earrings,1,161.22,Active,South
+Month 2,2025-02-04,ORD50443,CUST1074,Online,SKU1008,Earrings,Hoop Earrings,1,123.4,Active,Northeast
+Month 2,2025-02-04,ORD50445,CUST1067,Online,SKU1006,Rings,Silver Stackable Ring,1,97.5,Active,Midwest
+Month 2,2025-02-04,ORD50447,CUST1013,Online,SKU1002,Rings,Diamond Promise Ring,1,372.68,Active,Midwest
+Month 2,2025-02-05,ORD50248,CUST1039,In-Store,SKU1002,Rings,Diamond Promise Ring,1,352.45,Active,West
+Month 2,2025-02-05,ORD50258,CUST1052,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,192.17,Active,Midwest
+Month 2,2025-02-05,ORD50295,CUST1092,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,154.21,Lapsed,West
+Month 2,2025-02-05,ORD50350,CUST1096,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,192.76,Active,Northeast
+Month 2,2025-02-05,ORD50376,CUST1085,In-Store,SKU1002,Rings,Diamond Promise Ring,2,681.49,Active,Midwest
+Month 2,2025-02-05,ORD50378,CUST1120,Online,SKU1006,Rings,Silver Stackable Ring,1,96.25,Lapsed,West
+Month 2,2025-02-05,ORD50398,CUST1131,In-Store,SKU1005,Watches,Rose Gold Watch,1,235.38,Active,West
+Month 2,2025-02-05,ORD50442,CUST1016,In-Store,SKU1005,Watches,Rose Gold Watch,1,273.75,Lapsed,Northeast
+Month 2,2025-02-06,ORD50226,CUST1044,In-Store,SKU1005,Watches,Rose Gold Watch,2,599.23,Active,Northeast
+Month 2,2025-02-06,ORD50232,CUST1164,Online,SKU1007,Necklaces,Birthstone Necklace,1,192.86,Active,West
+Month 2,2025-02-06,ORD50339,CUST1150,In-Store,SKU1010,Rings,Engagement Ring Set,1,1010.31,Active,Midwest
+Month 2,2025-02-06,ORD50401,CUST1103,Online,SKU1007,Necklaces,Birthstone Necklace,1,184.74,Active,West
+Month 2,2025-02-07,ORD50244,CUST1052,Online,SKU1002,Rings,Diamond Promise Ring,1,393.34,Active,Midwest
+Month 2,2025-02-07,ORD50278,CUST1099,Online,SKU1002,Rings,Diamond Promise Ring,1,365.78,Lapsed,Northeast
+Month 2,2025-02-07,ORD50291,CUST1007,Online,SKU1008,Earrings,Hoop Earrings,1,123.17,Active,Northeast
+Month 2,2025-02-07,ORD50325,CUST1044,Online,SKU1001,Necklaces,Gold Pendant Necklace,2,375.3,Active,Northeast
+Month 2,2025-02-07,ORD50384,CUST1080,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,183.03,Active,Northeast
+Month 2,2025-02-07,ORD50399,CUST1129,Online,SKU1005,Watches,Rose Gold Watch,1,289.28,Lapsed,Midwest
+Month 2,2025-02-07,ORD50433,CUST1179,In-Store,SKU1002,Rings,Diamond Promise Ring,1,365.55,Active,West
+Month 2,2025-02-07,ORD50435,CUST1129,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,179.69,Lapsed,Midwest
+Month 2,2025-02-07,ORD50450,CUST1025,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,130.23,Lapsed,Northeast
+Month 2,2025-02-08,ORD50282,CUST1104,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,144.24,Active,Northeast
+Month 2,2025-02-08,ORD50288,CUST1076,Online,SKU1009,Bracelets,Charm Bracelet,1,160.46,Active,Northeast
+Month 2,2025-02-08,ORD50308,CUST1001,In-Store,SKU1002,Rings,Diamond Promise Ring,2,629.27,Active,West
+Month 2,2025-02-08,ORD50330,CUST1173,Online,SKU1005,Watches,Rose Gold Watch,1,296.13,Active,Northeast
+Month 2,2025-02-08,ORD50342,CUST1162,In-Store,SKU1005,Watches,Rose Gold Watch,1,281.68,Lapsed,South
+Month 2,2025-02-08,ORD50368,CUST1015,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,795.73,Active,West
+Month 2,2025-02-08,ORD50414,CUST1120,Online,SKU1002,Rings,Diamond Promise Ring,1,321.09,Lapsed,West
+Month 2,2025-02-09,ORD50239,CUST1135,Online,SKU1007,Necklaces,Birthstone Necklace,1,173.54,Active,West
+Month 2,2025-02-09,ORD50279,CUST1010,In-Store,SKU1006,Rings,Silver Stackable Ring,1,97.99,Lapsed,South
+Month 2,2025-02-09,ORD50289,CUST1093,Online,SKU1006,Rings,Silver Stackable Ring,1,102.03,Active,Northeast
+Month 2,2025-02-09,ORD50349,CUST1113,Online,SKU1005,Watches,Rose Gold Watch,1,277.26,Active,Northeast
+Month 2,2025-02-09,ORD50351,CUST1075,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,165.95,Active,Midwest
+Month 2,2025-02-09,ORD50370,CUST1028,Online,SKU1010,Rings,Engagement Ring Set,1,1015.94,Active,South
+Month 2,2025-02-09,ORD50394,CUST1131,Online,SKU1004,Bracelets,Tennis Bracelet,1,421.04,Active,West
+Month 2,2025-02-09,ORD50408,CUST1151,Online,SKU1010,Rings,Engagement Ring Set,1,1146.7,Active,West
+Month 2,2025-02-09,ORD50458,CUST1021,Online,SKU1003,Earrings,Pearl Stud Earrings,1,166.5,Lapsed,Northeast
+Month 2,2025-02-09,ORD50461,CUST1068,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,166.35,Lapsed,South
+Month 2,2025-02-10,ORD50238,CUST1085,Online,SKU1008,Earrings,Hoop Earrings,2,246.95,Active,Midwest
+Month 2,2025-02-10,ORD50266,CUST1067,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,440.07,Active,Midwest
+Month 2,2025-02-10,ORD50296,CUST1010,In-Store,SKU1002,Rings,Diamond Promise Ring,1,372.18,Lapsed,South
+Month 2,2025-02-10,ORD50298,CUST1036,In-Store,SKU1009,Bracelets,Charm Bracelet,2,329.49,Active,Northeast
+Month 2,2025-02-10,ORD50306,CUST1137,Online,SKU1007,Necklaces,Birthstone Necklace,1,169.6,Active,Northeast
+Month 2,2025-02-10,ORD50312,CUST1060,Online,SKU1002,Rings,Diamond Promise Ring,2,683.93,Active,South
+Month 2,2025-02-10,ORD50344,CUST1043,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,147.49,Active,Midwest
+Month 2,2025-02-10,ORD50359,CUST1056,In-Store,SKU1005,Watches,Rose Gold Watch,1,274.49,Active,West
+Month 2,2025-02-10,ORD50388,CUST1015,In-Store,SKU1006,Rings,Silver Stackable Ring,2,186.96,Active,West
+Month 2,2025-02-10,ORD50416,CUST1074,Online,SKU1002,Rings,Diamond Promise Ring,1,345.72,Active,Northeast
+Month 2,2025-02-10,ORD50423,CUST1039,Online,SKU1004,Bracelets,Tennis Bracelet,3,1322.46,Active,West
+Month 2,2025-02-10,ORD50425,CUST1135,Online,SKU1010,Rings,Engagement Ring Set,1,1017.54,Active,West
+Month 2,2025-02-11,ORD50228,CUST1082,Online,SKU1007,Necklaces,Birthstone Necklace,2,347.07,Active,West
+Month 2,2025-02-11,ORD50237,CUST1166,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,164.08,Active,West
+Month 2,2025-02-11,ORD50367,CUST1010,Online,SKU1003,Earrings,Pearl Stud Earrings,1,152.08,Lapsed,South
+Month 2,2025-02-11,ORD50469,CUST1177,Online,SKU1008,Earrings,Hoop Earrings,1,124.4,Active,Northeast
+Month 2,2025-02-12,ORD50247,CUST1095,Online,SKU1006,Rings,Silver Stackable Ring,1,109.87,Lapsed,West
+Month 2,2025-02-12,ORD50253,CUST1073,Online,SKU1003,Earrings,Pearl Stud Earrings,1,164.07,Active,Northeast
+Month 2,2025-02-12,ORD50310,CUST1085,In-Store,SKU1002,Rings,Diamond Promise Ring,1,320.78,Active,Midwest
+Month 2,2025-02-12,ORD50311,CUST1017,Online,SKU1002,Rings,Diamond Promise Ring,1,358.56,Active,Midwest
+Month 2,2025-02-12,ORD50328,CUST1092,In-Store,SKU1002,Rings,Diamond Promise Ring,1,326.56,Lapsed,West
+Month 2,2025-02-12,ORD50353,CUST1152,Online,SKU1004,Bracelets,Tennis Bracelet,1,435.45,Lapsed,South
+Month 2,2025-02-12,ORD50361,CUST1146,Online,SKU1009,Bracelets,Charm Bracelet,1,162.38,Lapsed,South
+Month 2,2025-02-12,ORD50362,CUST1004,Online,SKU1001,Necklaces,Gold Pendant Necklace,2,436.75,Active,West
+Month 2,2025-02-12,ORD50395,CUST1170,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,295.29,Lapsed,Northeast
+Month 2,2025-02-12,ORD50409,CUST1056,Online,SKU1002,Rings,Diamond Promise Ring,2,743.8,Active,West
+Month 2,2025-02-12,ORD50465,CUST1088,Online,SKU1006,Rings,Silver Stackable Ring,1,109.87,Active,South
+Month 2,2025-02-13,ORD50233,CUST1122,In-Store,SKU1006,Rings,Silver Stackable Ring,2,198.0,Active,South
+Month 2,2025-02-13,ORD50243,CUST1097,Online,SKU1007,Necklaces,Birthstone Necklace,1,186.88,Active,South
+Month 2,2025-02-13,ORD50250,CUST1071,Online,SKU1010,Rings,Engagement Ring Set,2,2219.72,Active,West
+Month 2,2025-02-13,ORD50254,CUST1041,Online,SKU1002,Rings,Diamond Promise Ring,1,376.49,Active,Midwest
+Month 2,2025-02-13,ORD50297,CUST1086,In-Store,SKU1002,Rings,Diamond Promise Ring,1,340.71,Lapsed,South
+Month 2,2025-02-13,ORD50299,CUST1054,In-Store,SKU1003,Earrings,Pearl Stud Earrings,3,444.47,Active,Midwest
+Month 2,2025-02-13,ORD50320,CUST1166,Online,SKU1009,Bracelets,Charm Bracelet,1,177.83,Active,West
+Month 2,2025-02-13,ORD50329,CUST1028,In-Store,SKU1008,Earrings,Hoop Earrings,1,125.29,Active,South
+Month 2,2025-02-13,ORD50363,CUST1041,In-Store,SKU1005,Watches,Rose Gold Watch,1,259.01,Active,Midwest
+Month 2,2025-02-13,ORD50392,CUST1003,Online,SKU1003,Earrings,Pearl Stud Earrings,1,139.86,Active,Northeast
+Month 2,2025-02-13,ORD50407,CUST1095,Online,SKU1009,Bracelets,Charm Bracelet,1,173.77,Lapsed,West
+Month 2,2025-02-13,ORD50441,CUST1158,Online,SKU1005,Watches,Rose Gold Watch,1,303.54,Active,Midwest
+Month 2,2025-02-14,ORD50259,CUST1104,In-Store,SKU1005,Watches,Rose Gold Watch,1,259.42,Active,Northeast
+Month 2,2025-02-14,ORD50261,CUST1035,In-Store,SKU1009,Bracelets,Charm Bracelet,1,159.17,Lapsed,Northeast
+Month 2,2025-02-14,ORD50315,CUST1142,Online,SKU1002,Rings,Diamond Promise Ring,3,1144.23,Active,West
+Month 2,2025-02-14,ORD50374,CUST1123,In-Store,SKU1005,Watches,Rose Gold Watch,2,595.71,Active,South
+Month 2,2025-02-14,ORD50377,CUST1175,In-Store,SKU1005,Watches,Rose Gold Watch,1,287.21,Lapsed,South
+Month 2,2025-02-14,ORD50389,CUST1146,Online,SKU1004,Bracelets,Tennis Bracelet,3,1384.31,Lapsed,South
+Month 2,2025-02-14,ORD50415,CUST1131,Online,SKU1002,Rings,Diamond Promise Ring,1,347.81,Active,West
+Month 2,2025-02-15,ORD50230,CUST1044,Online,SKU1002,Rings,Diamond Promise Ring,1,356.97,Active,Northeast
+Month 2,2025-02-15,ORD50251,CUST1176,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,162.94,Active,South
+Month 2,2025-02-15,ORD50257,CUST1033,Online,SKU1001,Necklaces,Gold Pendant Necklace,2,389.6,Lapsed,Northeast
+Month 2,2025-02-15,ORD50265,CUST1021,In-Store,SKU1006,Rings,Silver Stackable Ring,1,96.57,Lapsed,Northeast
+Month 2,2025-02-15,ORD50290,CUST1054,Online,SKU1005,Watches,Rose Gold Watch,1,277.92,Active,Midwest
+Month 2,2025-02-15,ORD50313,CUST1130,Online,SKU1006,Rings,Silver Stackable Ring,1,105.27,Lapsed,West
+Month 2,2025-02-15,ORD50317,CUST1145,Online,SKU1005,Watches,Rose Gold Watch,2,599.21,Lapsed,West
+Month 2,2025-02-15,ORD50324,CUST1174,Online,SKU1002,Rings,Diamond Promise Ring,2,690.52,Lapsed,Northeast
+Month 2,2025-02-15,ORD50337,CUST1036,Online,SKU1002,Rings,Diamond Promise Ring,1,338.0,Active,Northeast
+Month 2,2025-02-15,ORD50355,CUST1141,In-Store,SKU1006,Rings,Silver Stackable Ring,1,107.29,Lapsed,West
+Month 2,2025-02-15,ORD50371,CUST1175,In-Store,SKU1002,Rings,Diamond Promise Ring,1,364.81,Lapsed,South
+Month 2,2025-02-15,ORD50380,CUST1114,In-Store,SKU1005,Watches,Rose Gold Watch,1,289.94,Active,Northeast
+Month 2,2025-02-15,ORD50382,CUST1160,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,182.69,Lapsed,West
+Month 2,2025-02-15,ORD50405,CUST1008,Online,SKU1002,Rings,Diamond Promise Ring,1,346.22,Lapsed,Midwest
+Month 2,2025-02-15,ORD50464,CUST1013,Online,SKU1003,Earrings,Pearl Stud Earrings,1,158.02,Active,Midwest
+Month 2,2025-02-16,ORD50222,CUST1004,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,426.75,Active,West
+Month 2,2025-02-16,ORD50280,CUST1144,In-Store,SKU1006,Rings,Silver Stackable Ring,1,97.48,Lapsed,West
+Month 2,2025-02-16,ORD50286,CUST1151,Online,SKU1010,Rings,Engagement Ring Set,1,964.48,Active,West
+Month 2,2025-02-16,ORD50307,CUST1063,Online,SKU1006,Rings,Silver Stackable Ring,1,95.31,Active,Northeast
+Month 2,2025-02-16,ORD50314,CUST1140,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,185.3,Active,South
+Month 2,2025-02-16,ORD50318,CUST1032,Online,SKU1008,Earrings,Hoop Earrings,2,255.09,Lapsed,South
+Month 2,2025-02-16,ORD50323,CUST1176,Online,SKU1004,Bracelets,Tennis Bracelet,1,452.77,Active,South
+Month 2,2025-02-16,ORD50341,CUST1007,Online,SKU1010,Rings,Engagement Ring Set,1,861.08,Active,Northeast
+Month 2,2025-02-16,ORD50373,CUST1069,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,215.57,Active,Northeast
+Month 2,2025-02-16,ORD50432,CUST1071,Online,SKU1005,Watches,Rose Gold Watch,1,287.37,Active,West
+Month 2,2025-02-16,ORD50437,CUST1107,In-Store,SKU1008,Earrings,Hoop Earrings,1,127.69,Lapsed,Northeast
+Month 2,2025-02-16,ORD50449,CUST1092,Online,SKU1004,Bracelets,Tennis Bracelet,1,461.08,Lapsed,West
+Month 2,2025-02-16,ORD50453,CUST1061,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,194.35,Active,South
+Month 2,2025-02-17,ORD50221,CUST1125,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,198.84,Lapsed,West
+Month 2,2025-02-17,ORD50236,CUST1179,In-Store,SKU1008,Earrings,Hoop Earrings,1,124.17,Active,West
+Month 2,2025-02-17,ORD50332,CUST1156,Online,SKU1005,Watches,Rose Gold Watch,2,591.13,Active,West
+Month 2,2025-02-17,ORD50333,CUST1074,Online,SKU1007,Necklaces,Birthstone Necklace,1,179.2,Active,Northeast
+Month 2,2025-02-17,ORD50334,CUST1083,Online,SKU1006,Rings,Silver Stackable Ring,3,299.86,Active,Midwest
+Month 2,2025-02-17,ORD50366,CUST1097,Online,SKU1008,Earrings,Hoop Earrings,1,130.58,Active,South
+Month 2,2025-02-17,ORD50403,CUST1168,In-Store,SKU1002,Rings,Diamond Promise Ring,1,323.44,Active,South
+Month 2,2025-02-17,ORD50412,CUST1082,Online,SKU1004,Bracelets,Tennis Bracelet,3,1439.22,Active,West
+Month 2,2025-02-17,ORD50420,CUST1040,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,156.96,Active,Northeast
+Month 2,2025-02-17,ORD50426,CUST1097,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,141.81,Active,South
+Month 2,2025-02-17,ORD50436,CUST1063,In-Store,SKU1005,Watches,Rose Gold Watch,1,289.7,Active,Northeast
+Month 2,2025-02-18,ORD50292,CUST1079,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,208.85,Active,Midwest
+Month 2,2025-02-18,ORD50309,CUST1078,Online,SKU1007,Necklaces,Birthstone Necklace,2,377.7,Lapsed,Midwest
+Month 2,2025-02-18,ORD50364,CUST1148,Online,SKU1002,Rings,Diamond Promise Ring,1,354.12,Active,Northeast
+Month 2,2025-02-18,ORD50365,CUST1083,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,289.62,Active,Midwest
+Month 2,2025-02-18,ORD50381,CUST1117,In-Store,SKU1005,Watches,Rose Gold Watch,2,498.88,Lapsed,Northeast
+Month 2,2025-02-18,ORD50402,CUST1116,Online,SKU1003,Earrings,Pearl Stud Earrings,1,157.38,Active,South
+Month 2,2025-02-18,ORD50410,CUST1127,In-Store,SKU1002,Rings,Diamond Promise Ring,2,680.25,Active,West
+Month 2,2025-02-18,ORD50440,CUST1141,In-Store,SKU1002,Rings,Diamond Promise Ring,1,324.91,Lapsed,West
+Month 2,2025-02-18,ORD50444,CUST1007,Online,SKU1004,Bracelets,Tennis Bracelet,1,470.12,Active,Northeast
+Month 2,2025-02-18,ORD50459,CUST1135,Online,SKU1007,Necklaces,Birthstone Necklace,2,344.18,Active,West
+Month 2,2025-02-19,ORD50262,CUST1141,Online,SKU1004,Bracelets,Tennis Bracelet,1,450.71,Lapsed,West
+Month 2,2025-02-19,ORD50322,CUST1079,Online,SKU1003,Earrings,Pearl Stud Earrings,1,171.32,Active,Midwest
+Month 2,2025-02-19,ORD50356,CUST1063,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,444.33,Active,Northeast
+Month 2,2025-02-19,ORD50406,CUST1075,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,193.95,Active,Midwest
+Month 2,2025-02-19,ORD50454,CUST1139,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,205.46,Lapsed,Midwest
+Month 2,2025-02-19,ORD50467,CUST1014,Online,SKU1003,Earrings,Pearl Stud Earrings,1,147.55,Lapsed,Northeast
+Month 2,2025-02-20,ORD50235,CUST1145,In-Store,SKU1002,Rings,Diamond Promise Ring,3,943.45,Lapsed,West
+Month 2,2025-02-20,ORD50267,CUST1077,Online,SKU1009,Bracelets,Charm Bracelet,1,183.16,Active,Midwest
+Month 2,2025-02-20,ORD50271,CUST1109,Online,SKU1006,Rings,Silver Stackable Ring,1,110.12,Active,South
+Month 2,2025-02-20,ORD50347,CUST1159,In-Store,SKU1002,Rings,Diamond Promise Ring,1,357.3,Active,Northeast
+Month 2,2025-02-20,ORD50431,CUST1096,Online,SKU1010,Rings,Engagement Ring Set,1,1023.78,Active,Northeast
+Month 2,2025-02-20,ORD50439,CUST1014,Online,SKU1006,Rings,Silver Stackable Ring,1,102.61,Lapsed,Northeast
+Month 2,2025-02-20,ORD50452,CUST1171,Online,SKU1004,Bracelets,Tennis Bracelet,2,942.76,Active,Northeast
+Month 2,2025-02-21,ORD50224,CUST1044,In-Store,SKU1002,Rings,Diamond Promise Ring,2,624.01,Active,Northeast
+Month 2,2025-02-21,ORD50272,CUST1104,Online,SKU1010,Rings,Engagement Ring Set,1,1092.09,Active,Northeast
+Month 2,2025-02-21,ORD50274,CUST1088,In-Store,SKU1006,Rings,Silver Stackable Ring,1,103.71,Active,South
+Month 2,2025-02-21,ORD50301,CUST1178,In-Store,SKU1005,Watches,Rose Gold Watch,2,506.02,Lapsed,Midwest
+Month 2,2025-02-21,ORD50302,CUST1120,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,164.75,Lapsed,West
+Month 2,2025-02-21,ORD50305,CUST1137,In-Store,SKU1009,Bracelets,Charm Bracelet,1,157.32,Active,Northeast
+Month 2,2025-02-21,ORD50375,CUST1013,Online,SKU1003,Earrings,Pearl Stud Earrings,2,267.83,Active,Midwest
+Month 2,2025-02-21,ORD50396,CUST1039,In-Store,SKU1002,Rings,Diamond Promise Ring,3,1068.93,Active,West
+Month 2,2025-02-21,ORD50397,CUST1080,Online,SKU1005,Watches,Rose Gold Watch,1,306.11,Active,Northeast
+Month 2,2025-02-21,ORD50411,CUST1127,Online,SKU1006,Rings,Silver Stackable Ring,2,205.5,Active,West
+Month 2,2025-02-22,ORD50223,CUST1060,Online,SKU1006,Rings,Silver Stackable Ring,1,99.38,Active,South
+Month 2,2025-02-22,ORD50263,CUST1106,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,169.1,Active,South
+Month 2,2025-02-22,ORD50331,CUST1006,In-Store,SKU1007,Necklaces,Birthstone Necklace,2,353.68,Lapsed,Midwest
+Month 2,2025-02-22,ORD50348,CUST1013,In-Store,SKU1002,Rings,Diamond Promise Ring,1,334.25,Active,Midwest
+Month 2,2025-02-22,ORD50404,CUST1052,Online,SKU1004,Bracelets,Tennis Bracelet,2,961.55,Active,Midwest
+Month 2,2025-02-22,ORD50418,CUST1108,In-Store,SKU1006,Rings,Silver Stackable Ring,1,100.68,Active,West
+Month 2,2025-02-23,ORD50240,CUST1086,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,174.73,Lapsed,South
+Month 2,2025-02-23,ORD50241,CUST1148,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,440.43,Active,Northeast
+Month 2,2025-02-23,ORD50245,CUST1049,Online,SKU1005,Watches,Rose Gold Watch,2,613.6,Active,Northeast
+Month 2,2025-02-23,ORD50273,CUST1015,Online,SKU1009,Bracelets,Charm Bracelet,1,155.13,Active,West
+Month 2,2025-02-23,ORD50293,CUST1049,Online,SKU1007,Necklaces,Birthstone Necklace,1,173.21,Active,Northeast
+Month 2,2025-02-23,ORD50319,CUST1175,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,189.94,Lapsed,South
+Month 2,2025-02-23,ORD50383,CUST1020,In-Store,SKU1006,Rings,Silver Stackable Ring,1,94.55,Lapsed,Northeast
+Month 2,2025-02-23,ORD50387,CUST1102,Online,SKU1003,Earrings,Pearl Stud Earrings,1,160.43,Active,South
+Month 2,2025-02-23,ORD50460,CUST1172,Online,SKU1006,Rings,Silver Stackable Ring,1,104.82,Lapsed,South
+Month 2,2025-02-24,ORD50225,CUST1097,Online,SKU1004,Bracelets,Tennis Bracelet,1,455.76,Active,South
+Month 2,2025-02-24,ORD50229,CUST1135,Online,SKU1003,Earrings,Pearl Stud Earrings,1,142.01,Active,West
+Month 2,2025-02-24,ORD50269,CUST1147,Online,SKU1008,Earrings,Hoop Earrings,2,261.68,Active,Northeast
+Month 2,2025-02-24,ORD50343,CUST1159,Online,SKU1010,Rings,Engagement Ring Set,2,2363.88,Active,Northeast
+Month 2,2025-02-24,ORD50358,CUST1173,In-Store,SKU1005,Watches,Rose Gold Watch,2,557.1,Active,Northeast
+Month 2,2025-02-24,ORD50400,CUST1131,Online,SKU1009,Bracelets,Charm Bracelet,1,155.98,Active,West
+Month 2,2025-02-24,ORD50419,CUST1052,In-Store,SKU1002,Rings,Diamond Promise Ring,1,316.11,Active,Midwest
+Month 2,2025-02-24,ORD50427,CUST1034,In-Store,SKU1008,Earrings,Hoop Earrings,1,119.83,Active,Northeast
+Month 2,2025-02-24,ORD50428,CUST1126,In-Store,SKU1002,Rings,Diamond Promise Ring,2,651.73,Active,Midwest
+Month 2,2025-02-24,ORD50468,CUST1143,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,909.83,Active,West
+Month 2,2025-02-25,ORD50283,CUST1088,Online,SKU1006,Rings,Silver Stackable Ring,1,95.0,Active,South
+Month 2,2025-02-25,ORD50300,CUST1017,In-Store,SKU1004,Bracelets,Tennis Bracelet,3,1247.26,Active,Midwest
+Month 2,2025-02-25,ORD50360,CUST1075,In-Store,SKU1008,Earrings,Hoop Earrings,1,126.94,Active,Midwest
+Month 2,2025-02-25,ORD50391,CUST1174,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,204.79,Lapsed,Northeast
+Month 2,2025-02-26,ORD50231,CUST1111,Online,SKU1002,Rings,Diamond Promise Ring,1,353.56,Active,Northeast
+Month 2,2025-02-26,ORD50268,CUST1148,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,429.94,Active,Northeast
+Month 2,2025-02-26,ORD50276,CUST1135,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,452.82,Active,West
+Month 2,2025-02-26,ORD50379,CUST1102,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,166.95,Active,South
+Month 2,2025-02-26,ORD50413,CUST1028,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,163.57,Active,South
+Month 2,2025-02-26,ORD50434,CUST1158,Online,SKU1007,Necklaces,Birthstone Necklace,1,161.56,Active,Midwest
+Month 2,2025-02-26,ORD50451,CUST1053,Online,SKU1005,Watches,Rose Gold Watch,2,582.15,Active,West
+Month 2,2025-02-27,ORD50242,CUST1078,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,178.84,Lapsed,Midwest
+Month 2,2025-02-27,ORD50246,CUST1039,In-Store,SKU1008,Earrings,Hoop Earrings,1,134.98,Active,West
+Month 2,2025-02-27,ORD50255,CUST1089,Online,SKU1004,Bracelets,Tennis Bracelet,1,466.4,Lapsed,South
+Month 2,2025-02-27,ORD50277,CUST1059,Online,SKU1006,Rings,Silver Stackable Ring,3,311.37,Active,West
+Month 2,2025-02-27,ORD50326,CUST1054,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,180.67,Active,Midwest
+Month 2,2025-02-27,ORD50335,CUST1059,Online,SKU1008,Earrings,Hoop Earrings,1,127.46,Active,West
+Month 2,2025-02-27,ORD50417,CUST1170,Online,SKU1006,Rings,Silver Stackable Ring,1,108.34,Lapsed,Northeast
+Month 2,2025-02-27,ORD50429,CUST1164,Online,SKU1008,Earrings,Hoop Earrings,2,277.14,Active,West
+Month 2,2025-02-28,ORD50227,CUST1041,Online,SKU1002,Rings,Diamond Promise Ring,1,373.67,Active,Midwest
+Month 2,2025-02-28,ORD50284,CUST1046,In-Store,SKU1008,Earrings,Hoop Earrings,2,255.1,Active,Northeast
+Month 2,2025-02-28,ORD50321,CUST1022,Online,SKU1009,Bracelets,Charm Bracelet,2,331.6,Lapsed,West
+Month 2,2025-02-28,ORD50327,CUST1085,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,142.16,Active,Midwest
+Month 2,2025-02-28,ORD50345,CUST1078,In-Store,SKU1010,Rings,Engagement Ring Set,2,1886.15,Lapsed,Midwest
+Month 2,2025-02-28,ORD50352,CUST1075,In-Store,SKU1008,Earrings,Hoop Earrings,1,120.23,Active,Midwest
+Month 2,2025-02-28,ORD50386,CUST1019,Online,SKU1007,Necklaces,Birthstone Necklace,2,392.15,Active,West
+Month 2,2025-02-28,ORD50422,CUST1165,Online,SKU1009,Bracelets,Charm Bracelet,1,151.44,Active,West
+Month 2,2025-02-28,ORD50456,CUST1131,In-Store,SKU1002,Rings,Diamond Promise Ring,1,338.12,Active,West
+Month 2,2025-02-28,ORD50462,CUST1106,In-Store,SKU1008,Earrings,Hoop Earrings,1,116.06,Active,South
+Month 2,2025-02-28,ORD50466,CUST1071,In-Store,SKU1006,Rings,Silver Stackable Ring,1,96.04,Active,West
+Month 2,2025-02-28,ORD50470,CUST1049,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,329.83,Active,Northeast
+Month 3,2025-03-01,ORD50522,CUST1121,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,439.2,Active,Northeast
+Month 3,2025-03-01,ORD50523,CUST1148,In-Store,SKU1002,Rings,Diamond Promise Ring,2,745.79,Active,Northeast
+Month 3,2025-03-01,ORD50549,CUST1137,Online,SKU1004,Bracelets,Tennis Bracelet,1,536.38,Active,Northeast
+Month 3,2025-03-01,ORD50621,CUST1009,Online,SKU1002,Rings,Diamond Promise Ring,1,385.36,Active,Northeast
+Month 3,2025-03-01,ORD50634,CUST1100,In-Store,SKU1006,Rings,Silver Stackable Ring,1,106.01,Active,West
+Month 3,2025-03-01,ORD50635,CUST1044,Online,SKU1006,Rings,Silver Stackable Ring,1,107.26,Active,Northeast
+Month 3,2025-03-01,ORD50659,CUST1038,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,229.51,Active,Midwest
+Month 3,2025-03-01,ORD50713,CUST1132,Online,SKU1002,Rings,Diamond Promise Ring,1,367.88,Active,Northeast
+Month 3,2025-03-01,ORD50720,CUST1040,Online,SKU1006,Rings,Silver Stackable Ring,1,100.05,Active,Northeast
+Month 3,2025-03-01,ORD50724,CUST1169,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,1067.9,Active,Northeast
+Month 3,2025-03-01,ORD50725,CUST1144,Online,SKU1004,Bracelets,Tennis Bracelet,1,488.83,Lapsed,West
+Month 3,2025-03-02,ORD50477,CUST1068,Online,SKU1010,Rings,Engagement Ring Set,2,2282.1,Lapsed,South
+Month 3,2025-03-02,ORD50515,CUST1022,Online,SKU1005,Watches,Rose Gold Watch,1,319.3,Lapsed,West
+Month 3,2025-03-02,ORD50527,CUST1132,Online,SKU1010,Rings,Engagement Ring Set,1,964.36,Active,Northeast
+Month 3,2025-03-02,ORD50530,CUST1033,Online,SKU1005,Watches,Rose Gold Watch,3,1014.33,Lapsed,Northeast
+Month 3,2025-03-02,ORD50697,CUST1046,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,153.62,Active,Northeast
+Month 3,2025-03-02,ORD50726,CUST1082,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,202.61,Active,West
+Month 3,2025-03-02,ORD50734,CUST1130,In-Store,SKU1009,Bracelets,Charm Bracelet,1,162.99,Lapsed,West
+Month 3,2025-03-03,ORD50546,CUST1166,Online,SKU1003,Earrings,Pearl Stud Earrings,2,358.57,Active,West
+Month 3,2025-03-03,ORD50565,CUST1172,Online,SKU1006,Rings,Silver Stackable Ring,2,242.05,Lapsed,South
+Month 3,2025-03-03,ORD50599,CUST1035,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,916.05,Lapsed,Northeast
+Month 3,2025-03-03,ORD50752,CUST1135,In-Store,SKU1007,Necklaces,Birthstone Necklace,2,358.86,Active,West
+Month 3,2025-03-04,ORD50484,CUST1016,Online,SKU1007,Necklaces,Birthstone Necklace,2,393.91,Lapsed,Northeast
+Month 3,2025-03-04,ORD50512,CUST1133,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,458.71,Active,South
+Month 3,2025-03-04,ORD50541,CUST1123,In-Store,SKU1010,Rings,Engagement Ring Set,1,994.35,Active,South
+Month 3,2025-03-04,ORD50561,CUST1157,Online,SKU1007,Necklaces,Birthstone Necklace,1,165.73,Active,Northeast
+Month 3,2025-03-04,ORD50568,CUST1162,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,177.86,Lapsed,South
+Month 3,2025-03-04,ORD50577,CUST1005,Online,SKU1009,Bracelets,Charm Bracelet,2,342.88,Active,Northeast
+Month 3,2025-03-04,ORD50578,CUST1151,Online,SKU1002,Rings,Diamond Promise Ring,1,374.11,Active,West
+Month 3,2025-03-04,ORD50585,CUST1165,In-Store,SKU1010,Rings,Engagement Ring Set,1,1184.4,Active,West
+Month 3,2025-03-04,ORD50589,CUST1177,Online,SKU1004,Bracelets,Tennis Bracelet,1,458.18,Active,Northeast
+Month 3,2025-03-04,ORD50609,CUST1126,In-Store,SKU1005,Watches,Rose Gold Watch,1,306.0,Active,Midwest
+Month 3,2025-03-04,ORD50679,CUST1005,Online,SKU1004,Bracelets,Tennis Bracelet,1,441.13,Active,Northeast
+Month 3,2025-03-04,ORD50732,CUST1053,In-Store,SKU1009,Bracelets,Charm Bracelet,1,171.8,Active,West
+Month 3,2025-03-04,ORD50747,CUST1012,Online,SKU1006,Rings,Silver Stackable Ring,1,118.36,Lapsed,South
+Month 3,2025-03-04,ORD50751,CUST1067,Online,SKU1010,Rings,Engagement Ring Set,1,1178.76,Active,Midwest
+Month 3,2025-03-05,ORD50496,CUST1127,Online,SKU1006,Rings,Silver Stackable Ring,1,106.82,Active,West
+Month 3,2025-03-05,ORD50505,CUST1116,Online,SKU1010,Rings,Engagement Ring Set,1,1061.11,Active,South
+Month 3,2025-03-05,ORD50535,CUST1125,Online,SKU1004,Bracelets,Tennis Bracelet,2,939.24,Lapsed,West
+Month 3,2025-03-05,ORD50558,CUST1010,Online,SKU1006,Rings,Silver Stackable Ring,1,120.67,Lapsed,South
+Month 3,2025-03-05,ORD50620,CUST1178,In-Store,SKU1005,Watches,Rose Gold Watch,1,277.27,Lapsed,Midwest
+Month 3,2025-03-05,ORD50684,CUST1086,In-Store,SKU1002,Rings,Diamond Promise Ring,1,353.54,Lapsed,South
+Month 3,2025-03-05,ORD50693,CUST1099,Online,SKU1006,Rings,Silver Stackable Ring,1,108.4,Lapsed,Northeast
+Month 3,2025-03-05,ORD50719,CUST1163,In-Store,SKU1005,Watches,Rose Gold Watch,1,258.38,Lapsed,West
+Month 3,2025-03-05,ORD50743,CUST1052,Online,SKU1001,Necklaces,Gold Pendant Necklace,3,630.28,Active,Midwest
+Month 3,2025-03-06,ORD50471,CUST1027,Online,SKU1001,Necklaces,Gold Pendant Necklace,2,439.53,Active,Midwest
+Month 3,2025-03-06,ORD50473,CUST1101,In-Store,SKU1010,Rings,Engagement Ring Set,2,2034.39,Active,South
+Month 3,2025-03-06,ORD50498,CUST1083,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,437.99,Active,Midwest
+Month 3,2025-03-06,ORD50587,CUST1082,Online,SKU1006,Rings,Silver Stackable Ring,2,221.0,Active,West
+Month 3,2025-03-06,ORD50600,CUST1002,Online,SKU1007,Necklaces,Birthstone Necklace,1,195.19,Active,West
+Month 3,2025-03-06,ORD50633,CUST1135,Online,SKU1002,Rings,Diamond Promise Ring,1,379.18,Active,West
+Month 3,2025-03-06,ORD50637,CUST1121,In-Store,SKU1008,Earrings,Hoop Earrings,1,140.68,Active,Northeast
+Month 3,2025-03-06,ORD50668,CUST1100,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,461.8,Active,West
+Month 3,2025-03-06,ORD50675,CUST1052,Online,SKU1002,Rings,Diamond Promise Ring,1,352.65,Active,Midwest
+Month 3,2025-03-06,ORD50702,CUST1078,In-Store,SKU1006,Rings,Silver Stackable Ring,2,218.04,Lapsed,Midwest
+Month 3,2025-03-06,ORD50731,CUST1064,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,175.81,Active,Northeast
+Month 3,2025-03-07,ORD50517,CUST1015,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,491.26,Active,West
+Month 3,2025-03-07,ORD50529,CUST1038,Online,SKU1004,Bracelets,Tennis Bracelet,1,485.62,Active,Midwest
+Month 3,2025-03-07,ORD50540,CUST1139,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,210.37,Lapsed,Midwest
+Month 3,2025-03-07,ORD50550,CUST1010,Online,SKU1003,Earrings,Pearl Stud Earrings,1,168.37,Lapsed,South
+Month 3,2025-03-07,ORD50575,CUST1075,Online,SKU1005,Watches,Rose Gold Watch,1,319.7,Active,Midwest
+Month 3,2025-03-07,ORD50627,CUST1006,In-Store,SKU1005,Watches,Rose Gold Watch,1,262.51,Lapsed,Midwest
+Month 3,2025-03-07,ORD50639,CUST1168,Online,SKU1004,Bracelets,Tennis Bracelet,2,892.98,Active,South
+Month 3,2025-03-07,ORD50652,CUST1048,Online,SKU1008,Earrings,Hoop Earrings,1,129.01,Active,Midwest
+Month 3,2025-03-07,ORD50660,CUST1169,In-Store,SKU1002,Rings,Diamond Promise Ring,2,724.98,Active,Northeast
+Month 3,2025-03-07,ORD50665,CUST1064,In-Store,SKU1009,Bracelets,Charm Bracelet,1,175.59,Active,Northeast
+Month 3,2025-03-07,ORD50687,CUST1089,Online,SKU1010,Rings,Engagement Ring Set,2,2152.52,Lapsed,South
+Month 3,2025-03-07,ORD50705,CUST1069,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,289.11,Active,Northeast
+Month 3,2025-03-07,ORD50706,CUST1155,Online,SKU1004,Bracelets,Tennis Bracelet,1,520.86,Active,Midwest
+Month 3,2025-03-07,ORD50748,CUST1169,Online,SKU1010,Rings,Engagement Ring Set,2,2186.03,Active,Northeast
+Month 3,2025-03-07,ORD50753,CUST1059,In-Store,SKU1005,Watches,Rose Gold Watch,1,291.51,Active,West
+Month 3,2025-03-08,ORD50566,CUST1011,Online,SKU1005,Watches,Rose Gold Watch,1,295.62,Lapsed,Northeast
+Month 3,2025-03-08,ORD50612,CUST1166,Online,SKU1002,Rings,Diamond Promise Ring,1,383.36,Active,West
+Month 3,2025-03-08,ORD50712,CUST1033,Online,SKU1010,Rings,Engagement Ring Set,1,1063.3,Lapsed,Northeast
+Month 3,2025-03-09,ORD50509,CUST1083,Online,SKU1003,Earrings,Pearl Stud Earrings,1,168.05,Active,Midwest
+Month 3,2025-03-09,ORD50513,CUST1117,In-Store,SKU1002,Rings,Diamond Promise Ring,2,781.44,Lapsed,Northeast
+Month 3,2025-03-09,ORD50554,CUST1090,Online,SKU1003,Earrings,Pearl Stud Earrings,1,174.03,Lapsed,South
+Month 3,2025-03-09,ORD50563,CUST1030,Online,SKU1009,Bracelets,Charm Bracelet,1,169.49,Active,Northeast
+Month 3,2025-03-09,ORD50582,CUST1040,Online,SKU1004,Bracelets,Tennis Bracelet,3,1424.21,Active,Northeast
+Month 3,2025-03-09,ORD50671,CUST1082,Online,SKU1004,Bracelets,Tennis Bracelet,2,1089.87,Active,West
+Month 3,2025-03-09,ORD50686,CUST1057,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,164.2,Lapsed,West
+Month 3,2025-03-09,ORD50740,CUST1108,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,219.73,Active,West
+Month 3,2025-03-10,ORD50493,CUST1158,Online,SKU1003,Earrings,Pearl Stud Earrings,3,463.63,Active,Midwest
+Month 3,2025-03-10,ORD50516,CUST1107,Online,SKU1007,Necklaces,Birthstone Necklace,1,197.03,Lapsed,Northeast
+Month 3,2025-03-10,ORD50538,CUST1001,Online,SKU1009,Bracelets,Charm Bracelet,1,188.49,Active,West
+Month 3,2025-03-10,ORD50542,CUST1114,Online,SKU1008,Earrings,Hoop Earrings,1,143.64,Active,Northeast
+Month 3,2025-03-10,ORD50559,CUST1094,Online,SKU1003,Earrings,Pearl Stud Earrings,1,167.98,Active,Midwest
+Month 3,2025-03-10,ORD50607,CUST1141,Online,SKU1002,Rings,Diamond Promise Ring,2,735.88,Lapsed,West
+Month 3,2025-03-10,ORD50622,CUST1125,Online,SKU1001,Necklaces,Gold Pendant Necklace,3,629.16,Lapsed,West
+Month 3,2025-03-10,ORD50656,CUST1043,Online,SKU1009,Bracelets,Charm Bracelet,1,165.12,Active,Midwest
+Month 3,2025-03-10,ORD50756,CUST1066,In-Store,SKU1006,Rings,Silver Stackable Ring,1,110.21,Lapsed,South
+Month 3,2025-03-11,ORD50506,CUST1032,Online,SKU1006,Rings,Silver Stackable Ring,1,113.75,Lapsed,South
+Month 3,2025-03-11,ORD50569,CUST1133,Online,SKU1005,Watches,Rose Gold Watch,1,302.25,Active,South
+Month 3,2025-03-11,ORD50571,CUST1171,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,461.4,Active,Northeast
+Month 3,2025-03-11,ORD50573,CUST1140,Online,SKU1005,Watches,Rose Gold Watch,1,298.92,Active,South
+Month 3,2025-03-11,ORD50592,CUST1015,Online,SKU1002,Rings,Diamond Promise Ring,1,380.08,Active,West
+Month 3,2025-03-11,ORD50667,CUST1064,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,209.63,Active,Northeast
+Month 3,2025-03-11,ORD50685,CUST1020,Online,SKU1003,Earrings,Pearl Stud Earrings,1,161.78,Lapsed,Northeast
+Month 3,2025-03-11,ORD50707,CUST1173,In-Store,SKU1004,Bracelets,Tennis Bracelet,2,883.72,Active,Northeast
+Month 3,2025-03-12,ORD50483,CUST1101,In-Store,SKU1009,Bracelets,Charm Bracelet,1,183.76,Active,South
+Month 3,2025-03-12,ORD50528,CUST1027,Online,SKU1003,Earrings,Pearl Stud Earrings,2,352.97,Active,Midwest
+Month 3,2025-03-12,ORD50547,CUST1133,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,198.81,Active,South
+Month 3,2025-03-12,ORD50583,CUST1031,Online,SKU1006,Rings,Silver Stackable Ring,1,121.54,Active,South
+Month 3,2025-03-12,ORD50596,CUST1030,Online,SKU1004,Bracelets,Tennis Bracelet,1,461.3,Active,Northeast
+Month 3,2025-03-12,ORD50601,CUST1128,Online,SKU1009,Bracelets,Charm Bracelet,1,166.33,Active,Northeast
+Month 3,2025-03-12,ORD50604,CUST1002,Online,SKU1008,Earrings,Hoop Earrings,2,276.82,Active,West
+Month 3,2025-03-12,ORD50613,CUST1135,In-Store,SKU1002,Rings,Diamond Promise Ring,1,376.24,Active,West
+Month 3,2025-03-12,ORD50615,CUST1069,Online,SKU1005,Watches,Rose Gold Watch,1,299.63,Active,Northeast
+Month 3,2025-03-12,ORD50618,CUST1016,Online,SKU1006,Rings,Silver Stackable Ring,1,116.13,Lapsed,Northeast
+Month 3,2025-03-12,ORD50626,CUST1115,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,320.19,Active,Northeast
+Month 3,2025-03-12,ORD50630,CUST1015,Online,SKU1004,Bracelets,Tennis Bracelet,1,477.95,Active,West
+Month 3,2025-03-12,ORD50662,CUST1047,Online,SKU1006,Rings,Silver Stackable Ring,1,128.3,Active,West
+Month 3,2025-03-12,ORD50694,CUST1081,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,474.79,Active,South
+Month 3,2025-03-12,ORD50708,CUST1018,Online,SKU1004,Bracelets,Tennis Bracelet,1,471.86,Active,Northeast
+Month 3,2025-03-12,ORD50727,CUST1124,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,214.43,Active,South
+Month 3,2025-03-13,ORD50472,CUST1075,In-Store,SKU1010,Rings,Engagement Ring Set,1,1063.47,Active,Midwest
+Month 3,2025-03-13,ORD50500,CUST1169,Online,SKU1008,Earrings,Hoop Earrings,1,133.09,Active,Northeast
+Month 3,2025-03-13,ORD50605,CUST1090,Online,SKU1010,Rings,Engagement Ring Set,1,1226.8,Lapsed,South
+Month 3,2025-03-13,ORD50608,CUST1105,Online,SKU1007,Necklaces,Birthstone Necklace,2,335.03,Active,Northeast
+Month 3,2025-03-13,ORD50644,CUST1029,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,169.34,Active,South
+Month 3,2025-03-13,ORD50673,CUST1147,Online,SKU1003,Earrings,Pearl Stud Earrings,2,309.96,Active,Northeast
+Month 3,2025-03-13,ORD50678,CUST1078,Online,SKU1003,Earrings,Pearl Stud Earrings,2,318.52,Lapsed,Midwest
+Month 3,2025-03-13,ORD50704,CUST1107,Online,SKU1003,Earrings,Pearl Stud Earrings,2,322.53,Lapsed,Northeast
+Month 3,2025-03-14,ORD50476,CUST1102,Online,SKU1008,Earrings,Hoop Earrings,1,144.14,Active,South
+Month 3,2025-03-14,ORD50480,CUST1001,Online,SKU1004,Bracelets,Tennis Bracelet,1,500.82,Active,West
+Month 3,2025-03-14,ORD50485,CUST1143,Online,SKU1004,Bracelets,Tennis Bracelet,2,1029.93,Active,West
+Month 3,2025-03-14,ORD50489,CUST1163,Online,SKU1007,Necklaces,Birthstone Necklace,1,204.13,Lapsed,West
+Month 3,2025-03-14,ORD50531,CUST1049,Online,SKU1004,Bracelets,Tennis Bracelet,1,465.42,Active,Northeast
+Month 3,2025-03-14,ORD50534,CUST1031,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,448.13,Active,South
+Month 3,2025-03-14,ORD50544,CUST1177,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,411.0,Active,Northeast
+Month 3,2025-03-14,ORD50580,CUST1093,In-Store,SKU1008,Earrings,Hoop Earrings,1,136.77,Active,Northeast
+Month 3,2025-03-14,ORD50617,CUST1126,Online,SKU1004,Bracelets,Tennis Bracelet,1,464.52,Active,Midwest
+Month 3,2025-03-14,ORD50749,CUST1171,In-Store,SKU1008,Earrings,Hoop Earrings,1,139.76,Active,Northeast
+Month 3,2025-03-14,ORD50754,CUST1082,Online,SKU1006,Rings,Silver Stackable Ring,1,106.62,Active,West
+Month 3,2025-03-15,ORD50474,CUST1064,Online,SKU1010,Rings,Engagement Ring Set,1,972.49,Active,Northeast
+Month 3,2025-03-15,ORD50490,CUST1074,Online,SKU1010,Rings,Engagement Ring Set,1,1176.55,Active,Northeast
+Month 3,2025-03-15,ORD50508,CUST1050,Online,SKU1002,Rings,Diamond Promise Ring,1,397.2,Lapsed,South
+Month 3,2025-03-15,ORD50595,CUST1175,Online,SKU1007,Necklaces,Birthstone Necklace,1,185.05,Lapsed,South
+Month 3,2025-03-15,ORD50640,CUST1080,Online,SKU1005,Watches,Rose Gold Watch,1,302.33,Active,Northeast
+Month 3,2025-03-15,ORD50670,CUST1164,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,422.11,Active,West
+Month 3,2025-03-15,ORD50737,CUST1161,Online,SKU1004,Bracelets,Tennis Bracelet,1,529.99,Active,Northeast
+Month 3,2025-03-16,ORD50514,CUST1174,Online,SKU1004,Bracelets,Tennis Bracelet,1,511.23,Lapsed,Northeast
+Month 3,2025-03-16,ORD50539,CUST1057,Online,SKU1009,Bracelets,Charm Bracelet,2,335.7,Lapsed,West
+Month 3,2025-03-16,ORD50548,CUST1117,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,162.57,Lapsed,Northeast
+Month 3,2025-03-16,ORD50556,CUST1078,Online,SKU1005,Watches,Rose Gold Watch,1,277.09,Lapsed,Midwest
+Month 3,2025-03-16,ORD50588,CUST1019,Online,SKU1002,Rings,Diamond Promise Ring,1,341.66,Active,West
+Month 3,2025-03-16,ORD50619,CUST1125,Online,SKU1002,Rings,Diamond Promise Ring,1,379.17,Lapsed,West
+Month 3,2025-03-16,ORD50623,CUST1133,Online,SKU1003,Earrings,Pearl Stud Earrings,1,168.09,Active,South
+Month 3,2025-03-16,ORD50638,CUST1113,Online,SKU1005,Watches,Rose Gold Watch,1,300.98,Active,Northeast
+Month 3,2025-03-16,ORD50647,CUST1052,Online,SKU1004,Bracelets,Tennis Bracelet,1,509.72,Active,Midwest
+Month 3,2025-03-16,ORD50654,CUST1123,Online,SKU1004,Bracelets,Tennis Bracelet,1,493.94,Active,South
+Month 3,2025-03-16,ORD50715,CUST1119,Online,SKU1008,Earrings,Hoop Earrings,1,133.56,Active,South
+Month 3,2025-03-17,ORD50495,CUST1118,Online,SKU1004,Bracelets,Tennis Bracelet,1,414.39,Active,Northeast
+Month 3,2025-03-17,ORD50524,CUST1156,Online,SKU1008,Earrings,Hoop Earrings,1,146.83,Active,West
+Month 3,2025-03-17,ORD50545,CUST1172,In-Store,SKU1005,Watches,Rose Gold Watch,1,305.83,Lapsed,South
+Month 3,2025-03-17,ORD50598,CUST1074,Online,SKU1006,Rings,Silver Stackable Ring,1,111.52,Active,Northeast
+Month 3,2025-03-17,ORD50646,CUST1095,Online,SKU1003,Earrings,Pearl Stud Earrings,1,165.69,Lapsed,West
+Month 3,2025-03-17,ORD50651,CUST1083,Online,SKU1004,Bracelets,Tennis Bracelet,1,418.0,Active,Midwest
+Month 3,2025-03-17,ORD50655,CUST1142,Online,SKU1002,Rings,Diamond Promise Ring,1,353.56,Active,West
+Month 3,2025-03-17,ORD50681,CUST1101,In-Store,SKU1008,Earrings,Hoop Earrings,1,136.64,Active,South
+Month 3,2025-03-17,ORD50690,CUST1040,Online,SKU1007,Necklaces,Birthstone Necklace,1,189.27,Active,Northeast
+Month 3,2025-03-17,ORD50700,CUST1166,Online,SKU1003,Earrings,Pearl Stud Earrings,1,149.0,Active,West
+Month 3,2025-03-17,ORD50717,CUST1175,Online,SKU1002,Rings,Diamond Promise Ring,1,362.33,Lapsed,South
+Month 3,2025-03-17,ORD50718,CUST1118,Online,SKU1006,Rings,Silver Stackable Ring,1,123.07,Active,Northeast
+Month 3,2025-03-18,ORD50497,CUST1174,In-Store,SKU1002,Rings,Diamond Promise Ring,2,816.09,Lapsed,Northeast
+Month 3,2025-03-18,ORD50510,CUST1101,Online,SKU1007,Necklaces,Birthstone Necklace,1,178.55,Active,South
+Month 3,2025-03-18,ORD50519,CUST1014,Online,SKU1002,Rings,Diamond Promise Ring,1,364.75,Lapsed,Northeast
+Month 3,2025-03-18,ORD50533,CUST1179,Online,SKU1003,Earrings,Pearl Stud Earrings,2,343.09,Active,West
+Month 3,2025-03-18,ORD50536,CUST1156,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,166.77,Active,West
+Month 3,2025-03-18,ORD50555,CUST1159,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,456.7,Active,Northeast
+Month 3,2025-03-18,ORD50586,CUST1019,In-Store,SKU1009,Bracelets,Charm Bracelet,1,164.13,Active,West
+Month 3,2025-03-18,ORD50643,CUST1171,Online,SKU1004,Bracelets,Tennis Bracelet,1,504.15,Active,Northeast
+Month 3,2025-03-18,ORD50666,CUST1011,Online,SKU1008,Earrings,Hoop Earrings,1,143.77,Lapsed,Northeast
+Month 3,2025-03-18,ORD50676,CUST1177,In-Store,SKU1007,Necklaces,Birthstone Necklace,1,169.67,Active,Northeast
+Month 3,2025-03-18,ORD50689,CUST1001,Online,SKU1004,Bracelets,Tennis Bracelet,1,551.85,Active,West
+Month 3,2025-03-18,ORD50696,CUST1073,Online,SKU1002,Rings,Diamond Promise Ring,1,384.65,Active,Northeast
+Month 3,2025-03-18,ORD50703,CUST1153,Online,SKU1006,Rings,Silver Stackable Ring,1,105.69,Active,Northeast
+Month 3,2025-03-18,ORD50741,CUST1171,In-Store,SKU1002,Rings,Diamond Promise Ring,3,975.03,Active,Northeast
+Month 3,2025-03-19,ORD50532,CUST1111,In-Store,SKU1005,Watches,Rose Gold Watch,1,281.18,Active,Northeast
+Month 3,2025-03-19,ORD50543,CUST1060,Online,SKU1008,Earrings,Hoop Earrings,1,142.24,Active,South
+Month 3,2025-03-19,ORD50594,CUST1075,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,208.64,Active,Midwest
+Month 3,2025-03-19,ORD50628,CUST1070,In-Store,SKU1009,Bracelets,Charm Bracelet,1,176.5,Active,Northeast
+Month 3,2025-03-19,ORD50636,CUST1061,Online,SKU1004,Bracelets,Tennis Bracelet,1,477.55,Active,South
+Month 3,2025-03-19,ORD50710,CUST1045,Online,SKU1006,Rings,Silver Stackable Ring,1,107.36,Active,South
+Month 3,2025-03-19,ORD50711,CUST1117,Online,SKU1004,Bracelets,Tennis Bracelet,1,464.45,Lapsed,Northeast
+Month 3,2025-03-19,ORD50716,CUST1114,Online,SKU1005,Watches,Rose Gold Watch,1,298.05,Active,Northeast
+Month 3,2025-03-19,ORD50721,CUST1127,Online,SKU1009,Bracelets,Charm Bracelet,1,160.57,Active,West
+Month 3,2025-03-19,ORD50758,CUST1065,Online,SKU1009,Bracelets,Charm Bracelet,1,173.48,Active,South
+Month 3,2025-03-20,ORD50520,CUST1047,Online,SKU1007,Necklaces,Birthstone Necklace,1,190.39,Active,West
+Month 3,2025-03-20,ORD50526,CUST1154,Online,SKU1010,Rings,Engagement Ring Set,1,1192.32,Lapsed,Northeast
+Month 3,2025-03-20,ORD50602,CUST1049,Online,SKU1002,Rings,Diamond Promise Ring,1,351.1,Active,Northeast
+Month 3,2025-03-20,ORD50645,CUST1062,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,217.65,Active,West
+Month 3,2025-03-20,ORD50661,CUST1020,Online,SKU1010,Rings,Engagement Ring Set,1,1082.9,Lapsed,Northeast
+Month 3,2025-03-20,ORD50691,CUST1092,In-Store,SKU1005,Watches,Rose Gold Watch,1,305.46,Lapsed,West
+Month 3,2025-03-20,ORD50746,CUST1082,Online,SKU1004,Bracelets,Tennis Bracelet,2,1003.18,Active,West
+Month 3,2025-03-20,ORD50757,CUST1092,Online,SKU1004,Bracelets,Tennis Bracelet,1,485.69,Lapsed,West
+Month 3,2025-03-21,ORD50481,CUST1041,Online,SKU1004,Bracelets,Tennis Bracelet,2,933.64,Active,Midwest
+Month 3,2025-03-21,ORD50567,CUST1148,In-Store,SKU1008,Earrings,Hoop Earrings,3,401.56,Active,Northeast
+Month 3,2025-03-21,ORD50629,CUST1014,Online,SKU1002,Rings,Diamond Promise Ring,1,362.55,Lapsed,Northeast
+Month 3,2025-03-21,ORD50688,CUST1121,Online,SKU1008,Earrings,Hoop Earrings,1,151.02,Active,Northeast
+Month 3,2025-03-21,ORD50735,CUST1020,Online,SKU1004,Bracelets,Tennis Bracelet,1,457.43,Lapsed,Northeast
+Month 3,2025-03-21,ORD50736,CUST1070,Online,SKU1003,Earrings,Pearl Stud Earrings,3,548.76,Active,Northeast
+Month 3,2025-03-21,ORD50738,CUST1021,In-Store,SKU1009,Bracelets,Charm Bracelet,1,165.3,Lapsed,Northeast
+Month 3,2025-03-21,ORD50745,CUST1019,Online,SKU1007,Necklaces,Birthstone Necklace,1,164.76,Active,West
+Month 3,2025-03-22,ORD50475,CUST1006,In-Store,SKU1003,Earrings,Pearl Stud Earrings,3,429.88,Lapsed,Midwest
+Month 3,2025-03-22,ORD50501,CUST1069,Online,SKU1007,Necklaces,Birthstone Necklace,1,178.05,Active,Northeast
+Month 3,2025-03-22,ORD50658,CUST1124,In-Store,SKU1002,Rings,Diamond Promise Ring,1,354.09,Active,South
+Month 3,2025-03-22,ORD50683,CUST1044,Online,SKU1008,Earrings,Hoop Earrings,1,159.4,Active,Northeast
+Month 3,2025-03-22,ORD50698,CUST1060,In-Store,SKU1010,Rings,Engagement Ring Set,1,1018.22,Active,South
+Month 3,2025-03-22,ORD50728,CUST1160,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,2,350.84,Lapsed,West
+Month 3,2025-03-22,ORD50730,CUST1081,Online,SKU1004,Bracelets,Tennis Bracelet,1,428.06,Active,South
+Month 3,2025-03-22,ORD50739,CUST1000,Online,SKU1004,Bracelets,Tennis Bracelet,1,427.63,Lapsed,Midwest
+Month 3,2025-03-23,ORD50504,CUST1032,In-Store,SKU1009,Bracelets,Charm Bracelet,1,155.39,Lapsed,South
+Month 3,2025-03-23,ORD50507,CUST1126,In-Store,SKU1002,Rings,Diamond Promise Ring,2,720.67,Active,Midwest
+Month 3,2025-03-23,ORD50579,CUST1015,In-Store,SKU1003,Earrings,Pearl Stud Earrings,2,270.46,Active,West
+Month 3,2025-03-23,ORD50590,CUST1132,Online,SKU1006,Rings,Silver Stackable Ring,3,339.85,Active,Northeast
+Month 3,2025-03-23,ORD50614,CUST1041,In-Store,SKU1009,Bracelets,Charm Bracelet,1,181.85,Active,Midwest
+Month 3,2025-03-23,ORD50625,CUST1134,In-Store,SKU1010,Rings,Engagement Ring Set,2,1988.82,Active,Northeast
+Month 3,2025-03-23,ORD50631,CUST1071,In-Store,SKU1008,Earrings,Hoop Earrings,1,125.3,Active,West
+Month 3,2025-03-23,ORD50648,CUST1160,Online,SKU1009,Bracelets,Charm Bracelet,1,179.92,Lapsed,West
+Month 3,2025-03-23,ORD50672,CUST1071,In-Store,SKU1003,Earrings,Pearl Stud Earrings,3,506.43,Active,West
+Month 3,2025-03-23,ORD50682,CUST1045,In-Store,SKU1003,Earrings,Pearl Stud Earrings,1,168.51,Active,South
+Month 3,2025-03-23,ORD50733,CUST1165,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,437.23,Active,West
+Month 3,2025-03-23,ORD50759,CUST1099,Online,SKU1004,Bracelets,Tennis Bracelet,1,474.61,Lapsed,Northeast
+Month 3,2025-03-24,ORD50491,CUST1117,Online,SKU1004,Bracelets,Tennis Bracelet,1,517.72,Lapsed,Northeast
+Month 3,2025-03-24,ORD50494,CUST1107,Online,SKU1004,Bracelets,Tennis Bracelet,2,989.19,Lapsed,Northeast
+Month 3,2025-03-24,ORD50557,CUST1042,Online,SKU1010,Rings,Engagement Ring Set,1,1105.1,Lapsed,Midwest
+Month 3,2025-03-24,ORD50560,CUST1044,Online,SKU1007,Necklaces,Birthstone Necklace,1,174.17,Active,Northeast
+Month 3,2025-03-24,ORD50606,CUST1131,In-Store,SKU1009,Bracelets,Charm Bracelet,1,172.79,Active,West
+Month 3,2025-03-24,ORD50641,CUST1176,Online,SKU1004,Bracelets,Tennis Bracelet,1,520.6,Active,South
+Month 3,2025-03-24,ORD50674,CUST1051,Online,SKU1005,Watches,Rose Gold Watch,1,286.25,Active,Northeast
+Month 3,2025-03-24,ORD50695,CUST1068,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,470.06,Lapsed,South
+Month 3,2025-03-24,ORD50701,CUST1081,Online,SKU1006,Rings,Silver Stackable Ring,2,237.65,Active,South
+Month 3,2025-03-24,ORD50723,CUST1125,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,441.99,Lapsed,West
+Month 3,2025-03-25,ORD50525,CUST1090,Online,SKU1002,Rings,Diamond Promise Ring,1,372.12,Lapsed,South
+Month 3,2025-03-25,ORD50584,CUST1145,Online,SKU1002,Rings,Diamond Promise Ring,1,363.07,Lapsed,West
+Month 3,2025-03-25,ORD50642,CUST1097,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,1,200.43,Active,South
+Month 3,2025-03-25,ORD50664,CUST1036,Online,SKU1008,Earrings,Hoop Earrings,1,140.57,Active,Northeast
+Month 3,2025-03-26,ORD50503,CUST1135,In-Store,SKU1006,Rings,Silver Stackable Ring,2,200.86,Active,West
+Month 3,2025-03-26,ORD50537,CUST1109,Online,SKU1004,Bracelets,Tennis Bracelet,2,1060.65,Active,South
+Month 3,2025-03-26,ORD50553,CUST1137,Online,SKU1010,Rings,Engagement Ring Set,1,1045.91,Active,Northeast
+Month 3,2025-03-26,ORD50581,CUST1178,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,416.41,Lapsed,Midwest
+Month 3,2025-03-26,ORD50593,CUST1059,In-Store,SKU1010,Rings,Engagement Ring Set,3,3001.37,Active,West
+Month 3,2025-03-26,ORD50597,CUST1109,Online,SKU1005,Watches,Rose Gold Watch,1,312.88,Active,South
+Month 3,2025-03-26,ORD50603,CUST1028,Online,SKU1009,Bracelets,Charm Bracelet,1,154.24,Active,South
+Month 3,2025-03-26,ORD50616,CUST1054,Online,SKU1005,Watches,Rose Gold Watch,1,323.97,Active,Midwest
+Month 3,2025-03-26,ORD50649,CUST1052,Online,SKU1004,Bracelets,Tennis Bracelet,1,414.62,Active,Midwest
+Month 3,2025-03-26,ORD50650,CUST1006,Online,SKU1006,Rings,Silver Stackable Ring,1,117.25,Lapsed,Midwest
+Month 3,2025-03-26,ORD50663,CUST1030,Online,SKU1009,Bracelets,Charm Bracelet,1,162.35,Active,Northeast
+Month 3,2025-03-26,ORD50692,CUST1145,In-Store,SKU1008,Earrings,Hoop Earrings,1,137.9,Lapsed,West
+Month 3,2025-03-26,ORD50722,CUST1060,In-Store,SKU1009,Bracelets,Charm Bracelet,1,152.14,Active,South
+Month 3,2025-03-27,ORD50486,CUST1172,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,519.08,Lapsed,South
+Month 3,2025-03-27,ORD50488,CUST1151,Online,SKU1006,Rings,Silver Stackable Ring,1,107.65,Active,West
+Month 3,2025-03-27,ORD50502,CUST1168,Online,SKU1003,Earrings,Pearl Stud Earrings,1,160.56,Active,South
+Month 3,2025-03-27,ORD50610,CUST1169,Online,SKU1005,Watches,Rose Gold Watch,1,324.37,Active,Northeast
+Month 3,2025-03-27,ORD50657,CUST1156,Online,SKU1003,Earrings,Pearl Stud Earrings,3,496.5,Active,West
+Month 3,2025-03-27,ORD50669,CUST1084,In-Store,SKU1008,Earrings,Hoop Earrings,2,257.52,Active,South
+Month 3,2025-03-27,ORD50709,CUST1139,Online,SKU1002,Rings,Diamond Promise Ring,1,362.5,Lapsed,Midwest
+Month 3,2025-03-28,ORD50478,CUST1047,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,2,384.66,Active,West
+Month 3,2025-03-28,ORD50552,CUST1100,Online,SKU1008,Earrings,Hoop Earrings,1,137.93,Active,West
+Month 3,2025-03-28,ORD50562,CUST1056,Online,SKU1009,Bracelets,Charm Bracelet,1,178.54,Active,West
+Month 3,2025-03-28,ORD50611,CUST1160,In-Store,SKU1006,Rings,Silver Stackable Ring,1,112.12,Lapsed,West
+Month 3,2025-03-28,ORD50742,CUST1127,In-Store,SKU1002,Rings,Diamond Promise Ring,2,720.15,Active,West
+Month 3,2025-03-28,ORD50760,CUST1128,Online,SKU1005,Watches,Rose Gold Watch,1,321.99,Active,Northeast
+Month 3,2025-03-29,ORD50576,CUST1053,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,192.5,Active,West
+Month 3,2025-03-29,ORD50632,CUST1122,In-Store,SKU1002,Rings,Diamond Promise Ring,3,1084.81,Active,South
+Month 3,2025-03-29,ORD50680,CUST1139,Online,SKU1001,Necklaces,Gold Pendant Necklace,1,191.77,Lapsed,Midwest
+Month 3,2025-03-30,ORD50479,CUST1086,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,484.39,Lapsed,South
+Month 3,2025-03-30,ORD50482,CUST1013,Online,SKU1007,Necklaces,Birthstone Necklace,3,618.01,Active,Midwest
+Month 3,2025-03-30,ORD50487,CUST1073,Online,SKU1003,Earrings,Pearl Stud Earrings,1,152.29,Active,Northeast
+Month 3,2025-03-30,ORD50492,CUST1118,Online,SKU1004,Bracelets,Tennis Bracelet,1,466.08,Active,Northeast
+Month 3,2025-03-30,ORD50499,CUST1017,Online,SKU1003,Earrings,Pearl Stud Earrings,1,170.74,Active,Midwest
+Month 3,2025-03-30,ORD50521,CUST1120,In-Store,SKU1006,Rings,Silver Stackable Ring,1,106.0,Lapsed,West
+Month 3,2025-03-30,ORD50551,CUST1064,Online,SKU1004,Bracelets,Tennis Bracelet,2,937.82,Active,Northeast
+Month 3,2025-03-30,ORD50564,CUST1151,Online,SKU1002,Rings,Diamond Promise Ring,1,349.14,Active,West
+Month 3,2025-03-30,ORD50574,CUST1085,Online,SKU1004,Bracelets,Tennis Bracelet,1,425.35,Active,Midwest
+Month 3,2025-03-30,ORD50624,CUST1042,Online,SKU1001,Necklaces,Gold Pendant Necklace,3,631.71,Lapsed,Midwest
+Month 3,2025-03-30,ORD50653,CUST1048,Online,SKU1002,Rings,Diamond Promise Ring,1,365.74,Active,Midwest
+Month 3,2025-03-30,ORD50750,CUST1080,In-Store,SKU1009,Bracelets,Charm Bracelet,1,163.08,Active,Northeast
+Month 3,2025-03-30,ORD50755,CUST1073,Online,SKU1004,Bracelets,Tennis Bracelet,1,488.25,Active,Northeast
+Month 3,2025-03-31,ORD50511,CUST1054,Online,SKU1004,Bracelets,Tennis Bracelet,1,489.57,Active,Midwest
+Month 3,2025-03-31,ORD50518,CUST1050,In-Store,SKU1008,Earrings,Hoop Earrings,1,123.42,Lapsed,South
+Month 3,2025-03-31,ORD50570,CUST1085,Online,SKU1002,Rings,Diamond Promise Ring,1,373.44,Active,Midwest
+Month 3,2025-03-31,ORD50572,CUST1152,In-Store,SKU1004,Bracelets,Tennis Bracelet,1,426.89,Lapsed,South
+Month 3,2025-03-31,ORD50591,CUST1063,Online,SKU1007,Necklaces,Birthstone Necklace,1,168.05,Active,Northeast
+Month 3,2025-03-31,ORD50677,CUST1155,Online,SKU1006,Rings,Silver Stackable Ring,2,207.82,Active,Midwest
+Month 3,2025-03-31,ORD50699,CUST1104,In-Store,SKU1005,Watches,Rose Gold Watch,1,301.07,Active,Northeast
+Month 3,2025-03-31,ORD50714,CUST1159,In-Store,SKU1001,Necklaces,Gold Pendant Necklace,3,668.7,Active,Northeast
+Month 3,2025-03-31,ORD50729,CUST1029,Online,SKU1010,Rings,Engagement Ring Set,1,1084.53,Active,South
+Month 3,2025-03-31,ORD50744,CUST1063,Online,SKU1004,Bracelets,Tennis Bracelet,1,449.91,Active,Northeast
