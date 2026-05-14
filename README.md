@@ -50,6 +50,17 @@ A structured insight brief with the following sections:
 This workflow reflects a realistic consulting task in which early descriptive findings need to be translated into a clear, business-facing format. **InsightSprint** helps make that process more efficient & consistent by combining deterministic metric calculation with structured LLM-generated communication. The value of the system is not in replacing the analysis, but in supporting early-stage insight development in a more scalable way.
 
 
+## Evaluation
+
+The table below summarizes the small evaluation set used to compare the full InsightSprint workflow against a simpler prompt-only baseline.
+
+| Test Case | Full InsightSprint Workflow | Prompt-Only Baseline | Result |
+|---|---|---|---|
+| Most Popular Product by Month | Correctly identified the top product in each month using computed metrics & presented the results in the required structured format. | More variable in formatting & more dependent on how the summary was written into the prompt. | Workflow was more grounded & consistent |
+| Revenue Change from Month 1 to Month 3 | Correctly summarized month-over-month revenue change using Python-calculated metrics & structured supporting evidence. | Could summarize the trend, but was less reliable in presenting detailed numeric support consistently. | Workflow produced clearer & more faithful output. |
+| Online vs. In-Store Revenue | Correctly identified the higher-revenue channel & supported the result with revenue share, orders, & units sold. | Could identify the general pattern, but formatting & supporting detail were less consistent. | Workflow was more reliable & easier to review. |
+
+
 ## How the Agent Works
 **InsightSprint** follows a narrow descriptive analytics workflow:
 
@@ -151,6 +162,7 @@ Commits were used throughout the project to preserve each major milestone & docu
 - **Deployment**: Deployed and verified the InsightSprint Streamlit app with OpenAI integration.
 - **Final Polish**: Applied final polish updates to the deployed app.
 - **Updated README**: Completed `README` with deployed app link, toolkit notes, workflow summary, & commit log.
+- **Tool Evaluation**: Added evaluation summary & baseline comparison for **InsightSprint**.
 
 
 ## Repository Contents
