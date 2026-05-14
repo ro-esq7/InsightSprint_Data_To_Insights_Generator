@@ -1,15 +1,43 @@
+"""Streamlit App for InsightSprint"""
+
+# Step 1: Import Libraries
+import os
 import pandas as pd
 import streamlit as st
+from dotenv import load_dotenv
+from openai import OpenAI
 
+# Step 2: Import Prompt Files
 from prompts import SYSTEM_PROMPT, USER_PROMPT_TEMPLATE
+
+# Step 3: Import InsightSprint Question Logic
 from insightsprint_question_logic import (
+    REQUIRED_COLUMNS,
+    analyze_channel_revenue,
     analyze_most_popular_item_per_month,
     analyze_revenue_change_month1_to_month3,
-    analyze_channel_revenue,
+    validate_required_columns,
 )
 
+# Step 4: Load Environment Variables
+load_dotenv()
+
+# Step 5: Store API Key and Initialize OpenAI Client
+API_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=API_KEY)
+MODEL_NAME = "gpt-5.2"
+
+# Step 6: Configure the Streamlit Page
 st.set_page_config(page_title="InsightSprint", page_icon="💎", layout="wide")
 
+# Step 7: Warn the User if the App is Running in Demo Mode
+if not API_KEY:
+    st.warning(
+        "Missing OPENAI_API_KEY in .env file. The app will run in demo mode "
+        "using metric-based placeholder output."
+    )
+
+# Step 8: Define the Supported Business Questions
 SUPPORTED_QUESTIONS = {
     "Which product was the most popular in each month?": {
         "analysis_function": analyze_most_popular_item_per_month,
@@ -17,7 +45,7 @@ SUPPORTED_QUESTIONS = {
     },
     "How did total revenue change from Month 1 to Month 3?": {
         "analysis_function": analyze_revenue_change_month1_to_month3,
-        "description": "Summarizes revenue by month and calculates month-over-month change.",
+        "description": "Summarizes revenue by month and calculates month-over-month revenue change.",
     },
     "Which channel generated more revenue: online or in-store?": {
         "analysis_function": analyze_channel_revenue,
@@ -25,117 +53,137 @@ SUPPORTED_QUESTIONS = {
     },
 }
 
-REQUIRED_COLUMNS = {
-    "order_month",
-    "order_date",
-    "order_id",
-    "customer_id",
-    "order_channel",
-    "sku_id",
-    "product_category",
-    "product_name",
-    "units_sold",
-    "order_revenue",
-    "customer_status",
-    "region",
-}
-
-
-def validate_columns(df: pd.DataFrame) -> tuple[bool, list[str]]:
-    missing = sorted(list(REQUIRED_COLUMNS - set(df.columns)))
-    return len(missing) == 0, missing
-
-
+# Step 9: Format the Computed Metrics for Prompt Use
 def format_metrics_for_prompt(metrics_df: pd.DataFrame) -> str:
-    """Convert computed metrics into a clean text block for the LLM prompt."""
+    """Convert computed metrics into a readable text block for the prompt preview."""
     return metrics_df.to_string(index=False)
 
+# Step 10: Build the User Prompt Preview
+def build_prompt_preview(business_question: str, metrics_df: pd.DataFrame) -> str:
+    """Build the final user prompt that would be sent to an LLM."""
+    return USER_PROMPT_TEMPLATE.format(
+        business_question=business_question,
+        computed_metrics=format_metrics_for_prompt(metrics_df),
+    )
 
-def build_demo_insight_brief(business_question: str, metrics_df: pd.DataFrame) -> str:
-    """
-    Placeholder output for the Streamlit skeleton.
-    Later, replace this with a real LLM call that uses SYSTEM_PROMPT and USER_PROMPT_TEMPLATE.
-    """
-    metrics_text = format_metrics_for_prompt(metrics_df)
+# Step 11: Generate the Insight Brief with OpenAI
+def generate_insight_brief_with_openai(business_question: str, metrics_df: pd.DataFrame) -> str:
+    """Generate an insight brief with OpenAI using the computed metrics."""
+    api_key = API_KEY
+    if not api_key:
+        raise ValueError("Missing OPENAI_API_KEY in the .env file.")
 
+    user_prompt = build_prompt_preview(business_question, metrics_df)
+
+    response = client.responses.create(
+        model=MODEL_NAME,
+        instructions=SYSTEM_PROMPT,
+        input=user_prompt,
+    )
+
+    if not response.output_text:
+        raise ValueError("OpenAI returned an empty response.")
+
+    return response.output_text
+
+# Step 12: Build a Demo Insight Brief from Computed Metrics Only
+def build_demo_insight_brief_from_metrics(business_question: str, metrics_df: pd.DataFrame) -> str:
+    """Build a grounded draft insight brief from computed metrics only.
+
+    This keeps the class/demo version runnable without requiring an API key while
+    preserving the same structure expected from the prompt.
+    """
     if business_question == "Which product was the most popular in each month?":
-        lines = []
-        for _, row in metrics_df.iterrows():
-            lines.append(
-                f"- {row['order_month']}: {row['product_name']} led with {int(row['total_units_sold'])} units sold "
-                f"across {int(row['total_orders'])} orders."
-            )
-        supporting = [
-            f"- {row['order_month']}: {row['product_name']} | Units Sold = {int(row['total_units_sold'])} | "
-            f"Orders = {int(row['total_orders'])} | Revenue = ${row['total_revenue']:,.2f}"
+        key_findings = [
+            f"- {row['order_month']}: {row['product_name']} led with "
+            f"{int(row['total_units_sold'])} units sold across {int(row['total_orders'])} orders."
             for _, row in metrics_df.iterrows()
+        ]
+        supporting_metrics = [
+            f"- {row['order_month']}: {row['product_name']} | Units Sold = "
+            f"{int(row['total_units_sold'])} | Orders = {int(row['total_orders'])} | "
+            f"Revenue = ${row['total_revenue']:,.2f}"
+            for _, row in metrics_df.iterrows()
+        ]
+        caveats = [
+            "- Popularity is based on units sold, not revenue or profitability.",
+            "- The metrics describe what happened but do not explain why product demand shifted.",
         ]
         follow_ups = [
             "- Did the most popular product in each month also generate the most revenue?",
-            "- Were product shifts consistent across channels and regions?",
+            "- Were product shifts consistent across channels or regions?",
         ]
-        caveats = [
-            "- Popularity is based on units sold rather than revenue or profitability.",
-            "- These findings are descriptive and do not explain why product preferences changed over time.",
-        ]
+
     elif business_question == "How did total revenue change from Month 1 to Month 3?":
-        lines = [
-            f"- Revenue increased from ${metrics_df.iloc[0]['total_revenue']:,.2f} in {metrics_df.iloc[0]['order_month']} "
-            f"to ${metrics_df.iloc[-1]['total_revenue']:,.2f} in {metrics_df.iloc[-1]['order_month']}.",
-            f"- The largest month-over-month increase occurred between {metrics_df.iloc[1]['order_month']} and "
-            f"{metrics_df.iloc[2]['order_month']}.",
+        first_month = metrics_df.iloc[0]
+        last_month = metrics_df.iloc[-1]
+        key_findings = [
+            f"- Revenue changed from ${first_month['total_revenue']:,.2f} in "
+            f"{first_month['order_month']} to ${last_month['total_revenue']:,.2f} in "
+            f"{last_month['order_month']}.",
+            f"- Total units sold changed from {int(first_month['total_units_sold'])} to "
+            f"{int(last_month['total_units_sold'])} over the same period.",
         ]
-        supporting = []
+        supporting_metrics = []
         for _, row in metrics_df.iterrows():
-            change = row.get("revenue_change_vs_prior")
-            pct = row.get("pct_change_vs_prior")
-            if pd.isna(change):
-                supporting.append(
-                    f"- {row['order_month']}: Revenue = ${row['total_revenue']:,.2f}, Orders = {int(row['total_orders'])}, "
-                    f"Units Sold = {int(row['total_units_sold'])}"
+            if pd.isna(row["revenue_change_vs_prior"]):
+                supporting_metrics.append(
+                    f"- {row['order_month']}: Revenue = ${row['total_revenue']:,.2f} | "
+                    f"Orders = {int(row['total_orders'])} | Units Sold = {int(row['total_units_sold'])}"
                 )
             else:
-                supporting.append(
-                    f"- {row['order_month']}: Revenue = ${row['total_revenue']:,.2f}, Change vs Prior = ${change:,.2f}, "
-                    f"% Change = {pct:.2f}%"
+                supporting_metrics.append(
+                    f"- {row['order_month']}: Revenue = ${row['total_revenue']:,.2f} | "
+                    f"Change vs Prior = ${row['revenue_change_vs_prior']:,.2f} | "
+                    f"Percent Change = {row['pct_change_vs_prior']:.2f}%"
                 )
-        follow_ups = [
-            "- Which products contributed most to the revenue growth across months?",
-            "- Was revenue growth driven more by order volume or product mix?",
-        ]
         caveats = [
-            "- This analysis is descriptive and does not identify the cause of revenue growth.",
-            "- The results do not account for promotions, pricing changes, or external seasonality effects.",
-        ]
-    else:
-        winner = metrics_df.iloc[0]
-        runner_up = metrics_df.iloc[1]
-        lines = [
-            f"- {winner['order_channel']} generated more revenue than {runner_up['order_channel']} over the three-month period.",
-            f"- {winner['order_channel']} accounted for {winner['revenue_share_pct']:.2f}% of total revenue.",
-        ]
-        supporting = [
-            f"- {row['order_channel']}: Revenue = ${row['total_revenue']:,.2f} | Orders = {int(row['total_orders'])} | "
-            f"Units Sold = {int(row['total_units_sold'])} | Revenue Share = {row['revenue_share_pct']:.2f}%"
-            for _, row in metrics_df.iterrows()
+            "- This analysis is descriptive and does not identify the cause of revenue movement.",
+            "- The results do not account for promotions, pricing changes, or seasonality.",
         ]
         follow_ups = [
-            "- Which products performed best within each channel?",
-            "- Did channel performance remain consistent in each month?",
+            "- Which products contributed most to the revenue change?",
+            "- Was revenue movement driven more by order volume or product mix?",
+        ]
+
+    else:
+        top_channel = metrics_df.iloc[0]
+        comparison_channel = metrics_df.iloc[1] if len(metrics_df) > 1 else None
+        if comparison_channel is not None:
+            key_findings = [
+                f"- {top_channel['order_channel']} generated more revenue than "
+                f"{comparison_channel['order_channel']} during the analysis period.",
+                f"- {top_channel['order_channel']} accounted for "
+                f"{top_channel['revenue_share_pct']:.2f}% of total revenue.",
+            ]
+        else:
+            key_findings = [
+                f"- {top_channel['order_channel']} was the only channel present in the uploaded data.",
+                f"- It accounted for {top_channel['revenue_share_pct']:.2f}% of total revenue.",
+            ]
+        supporting_metrics = [
+            f"- {row['order_channel']}: Revenue = ${row['total_revenue']:,.2f} | "
+            f"Orders = {int(row['total_orders'])} | Units Sold = {int(row['total_units_sold'])} | "
+            f"Revenue Share = {row['revenue_share_pct']:.2f}%"
+            for _, row in metrics_df.iterrows()
         ]
         caveats = [
             "- This comparison reflects revenue only and does not account for profitability or channel costs.",
-            "- The results do not explain whether channel differences were driven by product mix or order volume.",
+            "- The metrics do not explain whether channel differences were driven by product mix or order size.",
+        ]
+        follow_ups = [
+            "- Which products performed best within each channel?",
+            "- Did channel performance remain consistent across all three months?",
         ]
 
-    brief = f"""## 1. Business Question
+    return f"""## 1. Business Question
 {business_question}
 
 ## 2. Key Findings
-{chr(10).join(lines)}
+{chr(10).join(key_findings)}
 
 ## 3. Supporting Metrics
-{chr(10).join(supporting)}
+{chr(10).join(supporting_metrics)}
 
 ## 4. Limitations / Caveats
 {chr(10).join(caveats)}
@@ -143,83 +191,102 @@ def build_demo_insight_brief(business_question: str, metrics_df: pd.DataFrame) -
 ## 5. Suggested Follow-Up Questions
 {chr(10).join(follow_ups)}
 """
-    return brief
 
+# Step 13: Read the Uploaded CSV File
+def read_uploaded_csv(uploaded_file) -> pd.DataFrame:
+    """Read an uploaded CSV file into a pandas DataFrame."""
+    try:
+        return pd.read_csv(uploaded_file)
+    except pd.errors.EmptyDataError as exc:
+        raise ValueError("The uploaded CSV is empty.") from exc
+    except pd.errors.ParserError as exc:
+        raise ValueError("The uploaded file could not be parsed as a valid CSV.") from exc
 
-st.title("💎 InsightSprint")
+# Step 14: Build the App Header
+st.title("InsightSprint")
 st.subheader("From Retail Transaction Data to Reviewable Insight Briefs")
 
-with st.expander("Project workflow", expanded=False):
+# Step 15: Explain the Project Workflow
+with st.expander("Project Workflow", expanded=False):
     st.markdown(
         """
-        **Workflow:** Upload a retail transaction dataset, select one supported business question,
-        compute descriptive metrics, and generate a first-pass insight brief for review.
-
-        **Current scope:** Descriptive analytics only.
+        Upload a CSV, validate the required retail transaction columns, preview the dataset,
+        choose one supported business question, compute descriptive metrics, and generate a
+        draft insight brief for review.
         """
     )
 
-uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
-
-question = st.selectbox(
-    "Select a business question",
-    options=list(SUPPORTED_QUESTIONS.keys()),
-    index=0,
-)
-
-st.caption(SUPPORTED_QUESTIONS[question]["description"])
-
-if uploaded_file is not None:
-    try:
-        df = pd.read_csv(uploaded_file)
-        is_valid, missing_columns = validate_columns(df)
-
-        if not is_valid:
-            st.error(
-                "The uploaded file is missing required columns: "
-                + ", ".join(missing_columns)
-            )
-        else:
-            st.success("Dataset uploaded successfully.")
-            with st.expander("Preview uploaded data", expanded=False):
-                st.dataframe(df.head(10), use_container_width=True)
-
-            if st.button("Generate Insight Brief", type="primary"):
-                analysis_function = SUPPORTED_QUESTIONS[question]["analysis_function"]
-                metrics_df = analysis_function(df)
-
-                st.markdown("### Computed Metrics")
-                st.dataframe(metrics_df, use_container_width=True)
-
-                st.markdown("### Draft Insight Brief")
-                st.markdown(build_demo_insight_brief(question, metrics_df))
-
-                with st.expander("Prompt preview", expanded=False):
-                    st.markdown("**System Prompt**")
-                    st.code(SYSTEM_PROMPT, language="text")
-
-                    st.markdown("**User Prompt Template**")
-                    st.code(
-                        USER_PROMPT_TEMPLATE.format(
-                            business_question=question,
-                            computed_metrics=format_metrics_for_prompt(metrics_df),
-                        ),
-                        language="text",
-                    )
-
-                st.info(
-                    "This is the Streamlit skeleton with a placeholder brief generator. "
-                    "The next step is to replace the placeholder output with a real LLM call."
-                )
-    except Exception as e:
-        st.error(f"Something went wrong while processing the file: {e}")
-else:
-    st.warning("Upload a CSV file to begin.")
-
+# Step 16: Build the Sidebar
 with st.sidebar:
-    st.header("About")
+    st.header("Required Columns")
+    st.write(", ".join(sorted(REQUIRED_COLUMNS)))
+    st.header("Scope")
     st.write(
-        "InsightSprint is a descriptive analytics workflow for a freelance consultant "
-        "working with small retail transaction datasets."
+        "Descriptive analytics only. The app uses grounded computed metrics before drafting the brief."
     )
-    st.write("Supported questions are intentionally limited to keep the scope narrow and evaluable.")
+
+# Step 17: Upload the Dataset
+uploaded_file = st.file_uploader("Upload CSV", type=["csv"])
+
+if uploaded_file is None:
+    st.info("Upload a CSV file to begin.")
+    st.stop()
+
+# Step 18: Validate the Uploaded Dataset
+try:
+    data = read_uploaded_csv(uploaded_file)
+    validate_required_columns(data)
+except ValueError as exc:
+    st.error(str(exc))
+    st.stop()
+
+st.success("Dataset uploaded and required columns validated.")
+
+# Step 19: Preview the Uploaded Dataset
+st.markdown("### Dataset Preview")
+st.dataframe(data.head(10), use_container_width=True)
+st.caption(f"Previewing 10 rows from {len(data):,} total rows and {len(data.columns):,} columns.")
+
+# Step 20: Let the User Choose a Supported Business Question
+selected_question = st.selectbox(
+    "Choose a supported business question",
+    options=list(SUPPORTED_QUESTIONS.keys()),
+)
+st.caption(SUPPORTED_QUESTIONS[selected_question]["description"])
+
+# Step 21: Run the Selected Analysis and Generate the Brief
+if st.button("Run Analysis", type="primary"):
+    analysis_function = SUPPORTED_QUESTIONS[selected_question]["analysis_function"]
+
+    try:
+        metrics = analysis_function(data)
+    except (TypeError, ValueError) as exc:
+        st.error(str(exc))
+        st.stop()
+
+    # Step 22: Display the Computed Metrics
+    st.markdown("### Computed Metrics")
+    st.dataframe(metrics, use_container_width=True)
+
+    # Step 23: Generate the Draft Insight Brief
+    st.markdown("### Draft Insight Brief for Review")
+
+    try:
+        if API_KEY:
+            insight_brief = generate_insight_brief_with_openai(selected_question, metrics)
+            st.markdown(insight_brief)
+        else:
+            st.markdown(build_demo_insight_brief_from_metrics(selected_question, metrics))
+            st.caption("Demo mode: showing a grounded placeholder brief because no API key was found.")
+    except Exception as exc:
+        st.error(f"OpenAI request failed: {exc}")
+        st.markdown(build_demo_insight_brief_from_metrics(selected_question, metrics))
+        st.caption("Fallback mode: showing a grounded placeholder brief because the live API request was unavailable.")
+
+    # Step 24: Show the Prompt Preview
+    with st.expander("Prompt Preview", expanded=False):
+        st.markdown("**System Prompt**")
+        st.code(SYSTEM_PROMPT, language="text")
+
+        st.markdown("**User Prompt With Computed Metrics**")
+        st.code(build_prompt_preview(selected_question, metrics), language="text")
