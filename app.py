@@ -33,7 +33,7 @@ MODEL_NAME = "gpt-5.2"
 
 
 # Step 6: Configure the Streamlit Page
-st.set_page_config(page_title="InsightSprint", page_icon="💎", layout="wide")
+st.set_page_config(page_title="InsightSprint", page_icon="👩🏽‍💻", layout="wide")
 
 
 # Step 7: Add Custom Styling
@@ -364,7 +364,7 @@ st.markdown(
     <div style="background-color:#FFFFFF; padding:1.25rem 1.5rem; border-radius:14px; border-left:8px solid #64BEB6; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
         <h1 style="margin-bottom:0.25rem; color:#37474F;">InsightSprint</h1>
         <p style="margin-bottom:0; color:#37474F; font-size:1.1rem;">
-            From Retail Transaction Data to Reviewable Insight Briefs
+            From Retail Transaction Data to Reviewable Insights
         </p>
     </div>
     """,
@@ -383,12 +383,12 @@ with st.sidebar:
     st.header("Project Workflow")
     st.markdown(
         """
-        1. Upload a CSV  
-        2. Ensure the required columns are present  
-        3. Preview the dataset  
-        4. Select 1 supported business question  
-        5. Compute descriptive metrics  
-        6. Generate a draft insight brief for review
+        1. Upload a CSV file.  
+        2. Ensure the required columns are present.  
+        3. Preview the dataset.  
+        4. Select one supported business question.  
+        5. Compute the descriptive metrics.  
+        6. Generate a draft insight brief for review.
         """
     )
 
