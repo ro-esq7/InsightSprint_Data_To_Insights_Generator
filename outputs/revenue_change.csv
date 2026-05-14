@@ -1,0 +1,4 @@
+order_month,total_revenue,total_orders,total_units_sold,revenue_change_vs_prior,pct_change_vs_prior
+Month 1,69772.03,220,299,,
+Month 2,90846.99,250,327,21074.960000000006,30.205456255178476
+Month 3,124540.88,290,373,33693.89,37.08861460352182
