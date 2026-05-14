@@ -173,3 +173,8 @@ Commits were used throughout the project to preserve each major milestone & docu
 - `outputs/` – Computed CSV Outputs for the Supported Questions
 - `docs/` – Prompt Documentation & Project Planning Materials
 - `requirements.txt` – Required Packages for Local Setup & Deployment
+
+
+## Disclaimers
+*1. **InsightSprint** is not limited to the sample jewelry dataset. It can work with other retail transaction datasets as long as they follow the expected transaction-level structure and include the required columns used by the app.* \
+*2. **InsightSprint** uses AI to generate draft insight briefs from computed descriptive metrics. All outputs should be reviewed by a human before being shared, submitted, or used in any decision-making context.*
