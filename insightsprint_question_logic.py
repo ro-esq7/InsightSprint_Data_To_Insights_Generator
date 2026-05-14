@@ -1,4 +1,4 @@
-"""Grounded descriptive analytics functions for the InsightSprint project."""
+"""Descriptive Analytics Functions for the InsightSprint"""
 
 # Step 1: Import Libraries
 from pathlib import Path

@@ -7,10 +7,11 @@ Requirements:
 - Use only the computed metrics and business question provided in the input.
 - Do not invent numbers, trends, explanations, or conclusions not supported by the metrics.
 - Keep the analysis descriptive only.
-- Do not imply causality or make strategic recommendations beyond the evidence provided.
-- Write clearly and concisely in a professional, business-facing tone.
+- Do not imply causality or make predictive or strategic recommendations beyond the evidence provided.
+- Write clearly, concisely, and in a professional, business-facing tone.
 - If the metrics are insufficient to support a strong finding, state that limitation directly.
-- Format the response using exactly these sections:
+- If a conclusion cannot be supported by the metrics, say so clearly.
+- Format the response using exactly these sections and in this exact order:
   1. Business Question
   2. Key Findings
   3. Supporting Metrics
@@ -27,7 +28,7 @@ Business Question:
 Computed Metrics:
 {computed_metrics}
 
-Write the output using exactly these sections:
+Write the output using exactly these sections and in this exact order:
 1. Business Question
 2. Key Findings
 3. Supporting Metrics
@@ -35,7 +36,8 @@ Write the output using exactly these sections:
 5. Suggested Follow-Up Questions
 
 Additional instructions:
-- Do not invent numbers or claims not supported by the metrics.
+- Do not invent numbers, claims, or explanations not supported by the metrics.
 - Keep the analysis descriptive only.
+- Do not make causal, predictive, or strategic claims.
 - Keep the response concise, clear, and reviewable.
 """.strip()
