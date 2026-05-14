@@ -1,6 +1,8 @@
-# Data to Insights Generator
+# InsightSprint
 ## Rosarys Esquilin
 
+## Streamlit App
+https://insightsprint.streamlit.app
 
 ---
 ## Introduction
